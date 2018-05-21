@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.controllers.Home"
+      prefWidth="1800.0" alignment="TOP_CENTER">
+    <ScrollPane hbarPolicy="NEVER" fx:id="scrollHome" minWidth="1400" fitToWidth="true">
+        <VBox spacing="20" alignment="TOP_CENTER"
+              prefWidth="1400" fx:id="boxHome">
+            <Label text="Próximos estrenos" styleClass="title,resp" alignment="TOP_CENTER" textAlignment="CENTER"/>
+
+            <ImageView fitWidth="950" fitHeight="300" styleClass="detalles" fx:id="parallax">
+                <image>
+                    <Image url="/sample/recursos/pub10.png"/>
+                </image>
+            </ImageView>
+        </VBox>
+    </ScrollPane>
+</VBox>

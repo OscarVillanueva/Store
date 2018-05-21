@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import org.controlsfx.control.Rating?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane fx:controller="sample.controllers.Detalles"
+            xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            prefWidth="1400" prefHeight="600" >
+    <top>
+        <VBox alignment="CENTER">
+            <Label alignment="CENTER" styleClass="title,resp" BorderPane.alignment="CENTER"
+                   textAlignment="CENTER" text="Pack de stickers" fx:id="labelTitulo"/>
+            <HBox alignment="CENTER">
+                <ButtonBar>
+                    <buttons>
+                        <Button fx:id="btnEdit" onAction="#initEdit"
+                                text="Editar" styleClass="bntAcerca" visible="false"/>
+                        <Button fx:id="btnDelete" onAction="#initDelete"
+                                text="Eliminar" styleClass="bntAcerca" visible="false"/>
+                    </buttons>
+                </ButtonBar>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <VBox alignment="TOP_CENTER" maxHeight="800">
+            <ScrollPane prefHeight="800" hbarPolicy="NEVER" fx:id="scroll"
+                        maxWidth="1600">
+                <GridPane prefHeight="600.0" prefWidth="1600" vgap="40" hgap="60"
+                          alignment="CENTER" styleClass="detallesPane">
+                    <ImageView fx:id="imageView" fitWidth="88" fitHeight="84" pickOnBounds="true" preserveRatio="true"
+                               GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="detalles" GridPane.halignment="CENTER">
+                        <image>
+                            <Image url="/sample/recursos/iTunesArtwork@2x.png"/>
+                        </image>
+                    </ImageView>
+
+                    <Button fx:id="btnComprar" text="\$80" GridPane.columnIndex="0"
+                            GridPane.rowIndex="2" styleClass="compra" GridPane.halignment="CENTER"/>
+
+
+                    <TextArea
+                            fx:id="txtADesc"
+                            text="Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Integer pretium ut quam in scelerisque.
+                    Nulla auctor dignissim neque a luctus. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    Mauris vel lectus at mi luctus volutpat nec in lacus. Etiam
+                    scelerisque luctus volutpat. Morbi porta odio neque, ut
+                    imperdiet dolor efficitur sed. Mauris ultricies ullamcorper
+                    mauris sed convallis. Mauris ultricies faucibus porta. Donec
+                    tempus quis erat vitae lacinia. Duis mattis aliquam hendrerit."
+                            GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="2"
+                            GridPane.rowSpan="3" wrapText="true" editable="false" minWidth="770"/>
+
+                    <ImageView fx:id="imageCap" fitWidth="1030" fitHeight="520"
+                               GridPane.columnIndex="0" GridPane.rowIndex="4" styleClass="detalles"
+                               GridPane.columnSpan="3" GridPane.hgrow="NEVER">
+                        <image>
+                            <Image url="/sample/recursos/Aquarelo1.png"/>
+                        </image>
+                    </ImageView>
+
+
+                    <Button text="Anterior" GridPane.columnIndex="0" onAction="#anterior"
+                            GridPane.rowIndex="5" styleClass="bntAcerca"/>
+                    <HBox fx:id="botones" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.halignment="CENTER">
+                        <Button text="Cambiar" alignment="CENTER" fx:id="btnCambiar" visible="false"
+                                styleClass="bntAcerca" onAction="#cambiar"/>
+                        <Button text="Agregar" alignment="CENTER" fx:id="btnAdd" visible="false"
+                                styleClass="bntAcerca" onAction="#addImage"/>
+                        <Button text="Eliminar" alignment="CENTER" fx:id="btnElim" visible="false"
+                                styleClass="bntAcerca" onAction="#deleteImage"/>
+                    </HBox>
+                    <Button text="Siguiente" alignment="TOP_RIGHT" onAction="#siguiente"
+                            GridPane.columnIndex="2" GridPane.rowIndex="5" GridPane.halignment="RIGHT" styleClass="bntAcerca"/>
+
+                    <Label text="Valoraciónes" GridPane.columnIndex="0" GridPane.rowIndex="6" GridPane.columnSpan="3"
+                           GridPane.halignment="CENTER" styleClass="funcion"/>
+
+                    <Label text="Reseña" GridPane.columnIndex="0" GridPane.rowIndex="7" styleClass="informacion"/>
+
+                    <TextArea
+                            fx:id="txtAreaUser"
+                            promptText="Ingresa tus comentarios (Opcional)"
+                            GridPane.columnIndex="0" GridPane.rowIndex="8" wrapText="true" editable="false"
+                            GridPane.columnSpan="2" maxWidth="600" maxHeight="400"/>
+
+                    <Button fx:id="btnValorar" onAction="#valorar"
+                            text="Valorar" styleClass="bntAcerca" GridPane.halignment="CENTER"
+                            GridPane.columnIndex="1" GridPane.rowIndex="7" />
+
+                    <Button fx:id="btnGuardarVal" visible="false" onAction="#guardarVal"
+                            text="Guardar" styleClass="bntAcerca" GridPane.halignment="CENTER"
+                            GridPane.columnIndex="1" GridPane.rowIndex="7" />
+
+                    <Rating fx:id="ratingBar" disable="true"
+                            GridPane.columnIndex="2" GridPane.rowIndex="7" partialRating="true"
+                            orientation="HORIZONTAL" GridPane.halignment="CENTER"/>
+
+                    <Label text="4.2" GridPane.columnIndex="2" GridPane.rowIndex="8" GridPane.halignment="CENTER"/>
+
+                    <Label text="Información" GridPane.columnIndex="0" GridPane.rowIndex="9" GridPane.columnSpan="3"
+                           GridPane.halignment="CENTER" styleClass="funcion"/>
+
+                    <Label text="Categoria" GridPane.halignment="LEFT" textAlignment="CENTER"
+                           GridPane.columnIndex="0" GridPane.rowIndex="10" styleClass="informacion"/>
+
+                    <Label text="Vendedor" GridPane.halignment="CENTER" textAlignment="CENTER" alignment="CENTER"
+                           GridPane.columnIndex="1" GridPane.rowIndex="10" styleClass="informacion,centrarInfo"/>
+
+                    <Label text="Tamaño" GridPane.halignment="RIGHT"  textAlignment="CENTER"
+                           GridPane.columnIndex="2" GridPane.rowIndex="10" styleClass="informacion"/>
+
+                    <Label text="País" GridPane.halignment="LEFT" textAlignment="CENTER"
+                           GridPane.columnIndex="0" GridPane.rowIndex="12" styleClass="informacion"/>
+
+                    <Label text="Compatibilidad" GridPane.halignment="CENTER" textAlignment="CENTER" alignment="CENTER"
+                           GridPane.columnIndex="1" GridPane.rowIndex="12" styleClass="informacion,centrarInfo"/>
+
+                    <Label text="Version" GridPane.halignment="RIGHT" alignment="CENTER"
+                           GridPane.columnIndex="2" GridPane.rowIndex="12" styleClass="informacion"/>
+
+                    <Label text="Caracteristicas" GridPane.halignment="LEFT" textAlignment="CENTER"
+                           GridPane.columnIndex="0" GridPane.rowIndex="14" styleClass="informacion"/>
+
+                    <Label text="Precio" GridPane.halignment="CENTER" textAlignment="CENTER"
+                           GridPane.columnIndex="1" GridPane.rowIndex="14" styleClass="informacion,centrarInfo"/>
+
+                    <Label text="Idioma" GridPane.halignment="RIGHT" alignment="CENTER"
+                           GridPane.columnIndex="2" GridPane.rowIndex="14" styleClass="informacion"/>
+
+                    <TextField fx:id="txtCategoria"
+                               text="Entretenimiento"  alignment="TOP_LEFT" GridPane.halignment="LEFT" editable="false" maxWidth="200"
+                               GridPane.columnIndex="0" GridPane.rowIndex="11" />
+
+                    <TextField fx:id="txtVendedor" text="Yo" GridPane.halignment="RIGHT" alignment="CENTER"  maxWidth="200" editable="false"
+                               GridPane.columnIndex="1" GridPane.rowIndex="11"
+                    />
+
+                    <TextField fx:id="txtTamanio"
+                               text="80 MB" GridPane.halignment="RIGHT"  alignment="CENTER"  editable="false" maxWidth="200"
+                               GridPane.columnIndex="2" GridPane.rowIndex="11" />
+
+                    <TextField fx:id="txtPais"
+                               text="Entretenimiento"  alignment="CENTER" GridPane.halignment="LEFT" editable="false" maxWidth="200"
+                               GridPane.columnIndex="0" GridPane.rowIndex="13" />
+
+                    <TextField fx:id="txtComp" text="Yo" alignment="CENTER"  maxWidth="200" editable="false"
+                               GridPane.columnIndex="1" GridPane.rowIndex="13"
+                    />
+
+                    <TextField
+                            fx:id="txtVersion"
+                            text="80 MB" GridPane.halignment="RIGHT"  alignment="CENTER"  editable="false" maxWidth="200"
+                            GridPane.columnIndex="2" GridPane.rowIndex="13" />
+
+                    <TextArea fx:id="txtCaract"
+                              text="Entretenimiento"  GridPane.halignment="LEFT" editable="false" maxWidth="200"
+                              maxHeight="600"
+                              GridPane.columnIndex="0" GridPane.rowIndex="15" />
+
+                    <TextField fx:id="txtPrecio" text="\$80" GridPane.halignment="CENTER" alignment="CENTER"  maxWidth="200" editable="false"
+                               GridPane.columnIndex="1" GridPane.rowIndex="15"
+                    />
+
+                    <TextField
+                            fx:id="txtIdioma"
+                            text="Español" GridPane.halignment="RIGHT"  alignment="CENTER"  editable="false" maxWidth="200"
+                            GridPane.columnIndex="2" GridPane.rowIndex="15" />
+
+                    <Button fx:id="btnGuardar" maxWidth="200" styleClass="compra" visible="false"
+                            text="Guardar" textAlignment="CENTER" GridPane.halignment="CENTER"
+                            GridPane.columnIndex="1" GridPane.rowIndex="16" onAction="#update"/>
+
+                    <Label text=" " maxHeight="200"  GridPane.columnIndex="1" GridPane.rowIndex="17"/>
+                </GridPane>
+            </ScrollPane>
+        </VBox>
+    </center>
+</BorderPane>

@@ -52,6 +52,10 @@ public class Home implements Initializable {
                 }
             }
         });
+        init();
+    }
+
+    private void init(){
         parallaxs = new String[]{"/sample/recursos/pub10.png",
                 "/sample/recursos/pub9.png",
                 "/sample/recursos/pub8.png",

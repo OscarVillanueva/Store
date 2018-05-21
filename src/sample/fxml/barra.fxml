@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import de.jensd.fx.glyphs.materialicons.MaterialIconView?>
+<BorderPane xmlns="http://javafx.com/javafx" fx:id="index"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.controllers.Barra"
+            prefHeight="600.0" prefWidth="600.0">
+    <top>
+        <HBox alignment="CENTER" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0"
+              AnchorPane.rightAnchor="0" style="-fx-background-color: trasparent">
+            <ToolBar style="-fx-background-color: transparent">
+                <Button fx:id="btnHome" text="Inicio" onAction="#home"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Inicio"/>
+                    </tooltip>
+                    <graphic>
+                        <FontAwesomeIconView glyphName="HOME" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL" visible="true"/>
+
+                <Button fx:id="btnCategoria" text="Categorias" onAction="#categorias"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Categorias"/>
+                    </tooltip>
+                    <graphic>
+                        <MaterialDesignIconView glyphName="FORMAT_LIST_BULLETED_TYPE" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnBuscar" text="Buscar" onAction="#buscar"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Buscar"/>
+                    </tooltip>
+                    <graphic>
+                        <FontAwesomeIconView glyphName="SEARCH" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnTop" text="Top Apps" onAction="#topApp"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Top Apps"/>
+                    </tooltip>
+                    <graphic>
+                        <FontAwesomeIconView glyphName="STAR" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnCompras" text="Comprado" onAction="#compras"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Comprado"/>
+                    </tooltip>
+                    <graphic>
+                        <MaterialDesignIconView glyphName="BARCODE_SCAN" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnCuenta" text="Cuenta" onAction="#cuenta"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Cuenta"/>
+                    </tooltip>
+                    <graphic>
+                        <MaterialDesignIconView glyphName="ACCOUNT" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnLogIn" text="Iniciar sesión" onAction="#login"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Iniciar sesión"/>
+                    </tooltip>
+                    <graphic>
+                        <MaterialDesignIconView glyphName="LOGIN" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnRegistrar" text="Registrarme" onAction="#registrar"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Registrarme"/>
+                    </tooltip>
+                    <graphic>
+                        <MaterialDesignIconView glyphName="PLAYLIST_PLUS" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
+            </ToolBar>
+        </HBox>
+    </top>
+
+</BorderPane>

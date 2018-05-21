@@ -1,0 +1,250 @@
+/*Estilos de la app*/
+
+/**
+* En esta hoja le damos estilos a toda la aplicación, aquí podemos seleccionar colores,
+* fuentes, tamaños, anchos y largos, entre otras cosas
+* */
+
+/**
+* esta clase root se refiere a los stages o la raíz de la ventana
+* aquí cambiamos el color de fondo a blanco
+* */
+.root{
+    -fx-background-color: #ffffff;
+}
+
+/**
+* Aquí seleccionamos todas las etiquetas que tengan por ID labelTitulo ademas de
+* seleccionar todos los elementos que tengan la clase title
+*/
+#labelTitulo,
+.title{
+
+    /** Usamos esta propiedad para cambiar el tamaño de letra a 80 px */
+    -fx-font-size: 80;
+}
+
+/** Selecionamos todos los elementos que tengan la clase información */
+.informacion{
+    /** Le cambiamos el tamaño de letra a 15px */
+    -fx-font-size: 15;
+}
+
+/**
+* Seleccionamos todos los elementos que tengan por ID labelMatriz
+* ademas de los que tengan la clase funcion
+* */
+#labelMatriz,
+.funcion{
+    /** Le cambiamos el color al texto */
+    -fx-text-fill: #009cfc;
+
+    /** Le cambiamos el tamaño de letra a 30 px  */
+    -fx-font-size: 30;
+}
+
+.subTitle{
+    /** Le cambiamos el color al texto */
+
+
+    /** Le cambiamos el tamaño de letra a 30 px  */
+    -fx-font-size: 30;
+}
+
+/**
+* Seleccionamos todos los elementos que sean de tipo TableView
+* TextField, Button y Label
+* */
+TableView,
+TextField,
+Button,
+Label{
+    /** Con esta propiedad cambiamos el tipo de letra  */
+    -fx-font-family: "Raleway", -apple-system;
+}
+
+
+/*MARK: - Personalizacion de la barra de menu*/
+/**
+* Seleccionamos el menu bar para darle algunos estilos
+* */
+MenuBar{
+    /** Seleccionamos un tipo de letra */
+    -fx-font-family: "Raleway",  -apple-system;
+
+    /** Le cambiamos el color de fondo a blanco */
+    -fx-background-color: #ffffff;
+}
+
+/*MARK: -Estilos del ingreso de Datos*/
+
+/** Seleccionamos la etiqueta con el ID labelIngreso */
+Label#labelIngreso{
+    /** le cambiamos el peso a la letra es decir la cambiamos a bold */
+    -fx-font-weight: 900;
+
+    /** Le cambiamos el tamaño a 20px */
+    -fx-font-size: 20;
+}
+
+/** Seleccionamos el VBOX con el ID boxDatos */
+VBox#boxDatos{
+    /** Alineamos el contenido al centro */
+    -fx-alignment: center;
+
+    /** Le damos un espaciado a los elementos de 16px */
+    -fx-spacing: 16;
+}
+
+/**
+* Seleccionamos el VBOX con ID boxDatos ya dentro del VBOX seleccionamos
+* el botón con el ID btnGraficar
+* el botón con el ID btnCalcular
+* */
+VBox#boxDatos #btnGraficar,
+VBox#boxDatos #btnCalcular{
+    /** Le damos un ancho de 250 px */
+    -fx-pref-width: 250;
+}
+
+/*MARK: -Estilos de la tabla*/
+
+/** Seleccionamos la TableView con ID tableValores */
+TableView#tableValores{
+    /** Definimos una anchura de 950px */
+    -fx-pref-width: 950;
+
+    /** Definimos una altura de 500px */
+    -fx-pref-height: 500!important;
+
+    /** Definimos las fuentes para la tabla */
+    -fx-font-family: "Raleway", -apple-system;
+}
+
+/**
+* Seleccionamos la tablaValores y todas sus columnas
+* */
+TableView#tableValores #columnaNumero,
+TableView#tableValores #columnaA,
+TableView#tableValores #columnaB,
+TableView#tableValores #columnafa,
+TableView#tableValores #columnafb,
+TableView#tableValores #columnaxr,
+TableView#tableValores #columnafxr,
+TableView#tableValores #columnaError{
+    /** Definimos un acho de 188.75px para aprovechar todo el espacio de la tabla*/
+    -fx-pref-width: 118.75;
+}
+
+/*MARK: -Acerca DE*/
+
+/** Seleccionamos todos los atributos que tengan el ID idea */
+#idea{
+    /** Le cambiamos el color al texto */
+    -fx-fill: #f4d742;
+}
+
+/** Seleccionamos todos los botones que tengan por clase bntAcerca */
+Button.bntAcerca{
+    /** Le cambiamos el color de fondo al boton */
+    -fx-background-color: #ffffff;
+
+    /** Le cambiamos el color a la letra de los botones */
+    -fx-text-fill: #009cfc;
+
+    /** Le cambiamos el tamaño de letra */
+    -fx-font-size: 15;
+}
+
+/** Seleccionamos todos los botones que tengan por clase bntAcerca
+* @modifiers hover se utiliza para cambiar estilos cuando el cursor esta sobre el elemento
+* */
+Button.bntAcerca:hover{
+    /** Le cambiamos el color */
+    -fx-text-fill: #8cdffc;
+}
+
+/*MARK:- Personalización de los resultados de Jacobi y Seidel*/
+Label.iteracion{
+    -fx-border-color: #000000;
+    -fx-alignment: center;
+    -fx-font-size: 15;
+    -fx-pref-width: 100;
+}
+
+Label.cabecera{
+   -fx-label-padding: 7,0,7,0;
+   -fx-font-weight: 900;
+   -fx-font-size: 20;
+   -fx-background-color: #009cfc;
+}
+
+ScrollPane > .viewport{
+    -fx-background-color: transparent;
+}
+
+ScrollPane{
+    -fx-background-color: transparent;
+}
+
+ScrollPane .increment-button{
+    visibility: hidden;
+}
+
+ScrollPane .decrement-button{
+    visibility: hidden;
+}
+
+ScrollPane .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+ScrollPane .scroll-bar:vertical .track-background {
+    visibility: hidden;
+}
+
+ScrollPane .scroll-bar:vertical .track {
+    visibility: hidden;
+}
+
+ScrollPane .hide-thumb .scroll-bar:vertical .thumb {
+    -fx-background-color: transparent;
+}
+
+Button.compra{
+    -fx-background-color: #009cfc;
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 88;
+}
+
+Button.compra:hover{
+    -fx-background-color: #8cdffc;
+}
+
+ImageView.detalles{
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.resp{
+    -fx-label-padding: 30 0 0 0 ;
+}
+
+.home,
+GridPane.detallesPane{
+    -fx-padding: 0 100 0 0;
+}
+
+Rating{
+    -fx-padding: 0 0 0 0;
+}
+
+.centrarInfo{
+    -fx-padding: 0 0 0 180;
+}
+
+
+
+
+

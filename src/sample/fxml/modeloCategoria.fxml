@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="sample.controllers.ModeloCategoria"
+          alignment="CENTER" hgap="10"
+          prefHeight="180.0" prefWidth="180.0">
+    <ImageView fx:id="imageView" fitWidth="88" fitHeight="84"
+               GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2">
+        <image>
+            <Image url="/sample/recursos/iTunesArtwork@2x.png"/>
+        </image>
+    </ImageView>
+
+    <Label fx:id="labelNombre" text="Pack de stickers" GridPane.halignment="CENTER"
+           wrapText="true" textAlignment="CENTER"
+           GridPane.columnIndex="1" GridPane.rowIndex="0" styleClass="informacion"/>
+
+    <Button fx:id="btnDetalles" text="Detalles" GridPane.halignment="CENTER"
+            styleClass="bntAcerca" GridPane.columnIndex="1" GridPane.rowIndex="1"
+            onAction="#detallar"/>
+</GridPane>

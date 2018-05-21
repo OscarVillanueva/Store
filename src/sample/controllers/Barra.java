@@ -157,12 +157,14 @@ public class Barra implements Initializable {
         if(isLog){
             //modificar para mandar llamar las pantallas de mariana
             loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/fxml/compras.fxml"));
+            loader.setLocation(getClass().getResource("/sample/fxml/Cuenta.fxml"));
             try {
                 loader.load();
             } catch (Exception e) {
                 System.out.println(e);
             }
+            parent = loader.getRoot();
+            setContent();
         }
         else
             ocurio("Destar loggeado para ver tu cuenta");

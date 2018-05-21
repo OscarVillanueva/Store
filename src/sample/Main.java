@@ -13,7 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/sample/fxml/barra.fxml"));
         Scene scene = new Scene(root, 300, 275);
         scene.getStylesheets().add(getClass().getResource("/sample/css/estilos.css").toExternalForm());
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Store");
         primaryStage.setScene(scene);
         primaryStage.setMaximized(true);
         //primaryStage.setResizable(false);

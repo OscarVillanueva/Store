@@ -82,8 +82,8 @@ public class Home implements Initializable {
         Categoria categoria = loader.getController();
         categoria.setId("Algunas Apps");
         Parent parent = loader.getRoot();
-        parent.minWidth(1000);
-        parent.minHeight(1000);
+        /*parent.minWidth(1000);
+        parent.minHeight(1000);*/
         boxHome.getChildren().add(parent);
         Label label = new Label(" ");
         label.setPadding(new Insets(0,0,40,0));

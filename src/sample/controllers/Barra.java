@@ -121,30 +121,33 @@ public class Barra implements Initializable {
 
     @FXML
     public void login(){
-        /*modificar para mandar llamar las pantallas de mariana
+
         loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/sample/compras.fxml"));
+        loader.setLocation(getClass().getResource("/sample/fxml/Login.fxml"));
         try {
             loader.load();
         } catch (Exception e) {
             System.out.println(e);
         }
-        isLog = true;*/
+        parent = loader.getRoot();
+        setContent();
+        isLog = true;
         //idUser = al usuario;
         //tipo = tipo de usuario que es
     }
 
     @FXML
     public void registrar(){
-        /*modificar para mandar llamar las pantallas de mariana
         loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/sample/compras.fxml"));
+        loader.setLocation(getClass().getResource("/sample/fxml/Registro.fxml"));
         try {
             loader.load();
         } catch (Exception e) {
             System.out.println(e);
         }
-        isLog = true;*/
+        parent = loader.getRoot();
+        setContent();
+        isLog = true;
         //idUser = al usuario;
         //tipo = tipo de usuario
     }

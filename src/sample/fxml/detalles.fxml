@@ -17,13 +17,17 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
 <BorderPane fx:controller="sample.controllers.Detalles"
             xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
             prefWidth="1400" prefHeight="600" >
     <top>
         <VBox alignment="CENTER">
-            <Label alignment="CENTER" styleClass="title,resp" BorderPane.alignment="CENTER"
-                   textAlignment="CENTER" text="Pack de stickers" fx:id="labelTitulo"/>
+            <StackPane alignment="CENTER">
+                <Label alignment="CENTER" styleClass="title,resp" BorderPane.alignment="CENTER"
+                       textAlignment="CENTER" text="Pack de stickers" fx:id="labelTitulo"/>
+                <TextField fx:id="txtNombre" text="Pack de stickers" maxWidth="200" visible="false"/>
+            </StackPane>
             <HBox alignment="CENTER">
                 <ButtonBar>
                     <buttons>

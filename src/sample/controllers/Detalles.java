@@ -31,7 +31,7 @@ public class Detalles implements Initializable {
     private String id;
     private ArrayList<String> urls = new ArrayList<>();
     private int cont;
-    private boolean isLog = true;
+    private boolean isLog;
     private boolean bandera;
 
     @FXML
@@ -44,7 +44,7 @@ public class Detalles implements Initializable {
     TextField txtVendedor, txtComp, txtPrecio, txtCategoria, txtTamanio, txtPais;
 
     @FXML
-    TextField txtVersion, txtIdioma;
+    TextField txtVersion, txtIdioma, txtNombre;
 
     @FXML
     Button btnCambiar,btnValorar,btnGuardar,btnEdit,btnDelete,btnComprar,btnAdd,btnElim,btnGuardarVal;
@@ -77,7 +77,7 @@ public class Detalles implements Initializable {
         });
 
         initComponents();
-        //setType();
+        setType();
         getRootPath();
     }
 
@@ -104,15 +104,15 @@ public class Detalles implements Initializable {
 
     }
 
-    public void setInit(String behaivior, double pop,String seller, String id,
-                        String compat,String price, String cat, String tam,String from,
+    public void setInit(String behaivior, double pop,String seller, String id, String nombre,
+                        String compat,String price, String category, String tam,String from,
                         String ver,String lang,String desc,String others,ArrayList url,boolean log){
         this.id = id;
         guia = behaivior;
         txtVendedor.setText(seller);
         txtComp.setText(compat);
         txtPrecio.setText(price);
-        txtCategoria.setText(cat);
+        txtCategoria.setText(category);
         txtTamanio.setText(tam);
         txtPais.setText(from);
         txtVersion.setText(ver);
@@ -124,6 +124,8 @@ public class Detalles implements Initializable {
         btnElim.setVisible(true);
         ratingBar.setRating(pop);
         isLog = log;
+        labelTitulo.setText(nombre);
+        txtNombre.setText(nombre);
         if(urls==null) {
             cont = -1;
             bandera = false;
@@ -217,6 +219,8 @@ public class Detalles implements Initializable {
     }
 
     private void activate(){
+        labelTitulo.setVisible(false);
+        txtNombre.setVisible(true);
         txtVendedor.setEditable(true);
         txtComp.setEditable(true);
         txtPrecio.setEditable(true);

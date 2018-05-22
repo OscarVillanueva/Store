@@ -19,7 +19,7 @@
 
             <ImageView fitWidth="950" fitHeight="300" styleClass="detalles" fx:id="parallax">
                 <image>
-                    <Image url="/sample/recursos/pub10.png"/>
+                    <Image url="/sample/recursos/pub5.png"/>
                 </image>
             </ImageView>
         </VBox>

@@ -10,6 +10,7 @@ public Cuenta()
 {
 
 }
+//Añadir contraseña
     public Cuenta(int id, String nombre, String corre, Date fechaNac, String direccion, String telefono, String descripcion, String datos, String admin) {
         this.id = id;
         this.nombre = nombre;

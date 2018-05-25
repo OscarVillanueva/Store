@@ -13,7 +13,6 @@ import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.ScrollEvent;
@@ -22,8 +21,6 @@ import javafx.scene.layout.VBox;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
-
-
 
 import java.net.URL;
 import java.util.Random;
@@ -73,7 +70,7 @@ public class Home implements Initializable {
 
     private void addCategorias(){
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/sample/fxml/categoria.fxml"));
+        loader.setLocation(getClass().getResource("../fxml/categoria.fxml"));
         try {
             loader.load();
         } catch (Exception e) {
@@ -94,7 +91,7 @@ public class Home implements Initializable {
         Label label = new Label("Recomendaciones");
         label.getStyleClass().add("title");
         boxHome.getChildren().add(label);
-        player = new MediaPlayer(new Media(getClass().getResource("/sample/recursos/video.mp4").toExternalForm()));
+        player = new MediaPlayer(new Media(getClass().getResource("../recursos/video.mp4").toExternalForm()));
         //player.play();
         MediaView mediaView = new MediaView(player);
         boxHome.getChildren().add(mediaView);

@@ -33,33 +33,43 @@
     <TextField fx:id="txtEmail" GridPane.columnIndex="2" GridPane.rowIndex="4" prefWidth="200.0"/>
 
     <Label  text="Contraseña " GridPane.columnIndex="0" GridPane.rowIndex="5" />
-    <TextField fx:id="txtPassword" GridPane.columnIndex="2" GridPane.rowIndex="5" prefWidth="200.0"/>
+    <PasswordField fx:id="txtPassword" GridPane.columnIndex="2" GridPane.rowIndex="5" prefWidth="200.0"/>
 
     <Label text="Dirección " GridPane.columnIndex="0" GridPane.rowIndex="6" />
     <TextField fx:id="txtDireccion" GridPane.columnIndex="2" GridPane.rowIndex="6" prefWidth="200.0"/>
 
     <Label text="Fecha de nacimiento  " GridPane.columnIndex="0" GridPane.rowIndex="7"/>
-    <TextField fx:id="txtFechaNacimiento" GridPane.columnIndex="2" GridPane.rowIndex="7" prefWidth="200.0"/>
+    <DatePicker fx:id="dpFecha" GridPane.columnIndex="2" GridPane.rowIndex="7"/>
+
 
     <Label  text="Teléfono " GridPane.columnIndex="0" GridPane.rowIndex="8"/>
     <TextField fx:id="txtTelefono" GridPane.columnIndex="2" GridPane.rowIndex="8" prefWidth="200.0" />
 
     <Label text="Forma de pago " GridPane.columnIndex="0" GridPane.rowIndex="9" />
-    <SplitMenuButton GridPane.columnIndex="2" GridPane.rowIndex="9"  text="Seleccionar" prefWidth="300.0">
-        <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
-        </items>
-    </SplitMenuButton>
+    <fx:define>
+        <ToggleGroup fx:id="toggleGroup1" />
+    </fx:define>
+    <HBox GridPane.columnIndex="2" GridPane.rowIndex="9">
+        <RadioButton  text="Credito" fx:id="rbCredito" toggleGroup="$toggleGroup1"/>
+
+        <RadioButton text="Regalo" fx:id="rbRegalo" toggleGroup="$toggleGroup1"/>
+    </HBox>
 
     <Label text="Datos de tarjeta " GridPane.columnIndex="0" GridPane.rowIndex="10"/>
     <TextField fx:id="txtDatosTarjeta" GridPane.columnIndex="2" GridPane.rowIndex="10" prefWidth="200.0"/>
     <Label GridPane.rowIndex="11" GridPane.columnIndex="0" text=""/>
     <Label GridPane.rowIndex="12" GridPane.columnIndex="0" text=""/>
+    <fx:define>
+        <ToggleGroup fx:id="toggleGroup2" />
+    </fx:define>
+    <HBox GridPane.columnIndex="2" GridPane.rowIndex="11">
+        <RadioButton  text="Usuario" fx:id="rbUsuario" toggleGroup="$toggleGroup2"/>
+        <RadioButton text="Administrador" fx:id="rbAdministrador" toggleGroup="$toggleGroup2"/>
 
+    </HBox>
     <HBox GridPane.rowIndex="12" GridPane.columnIndex="2" spacing="10">
-        <JFXButton fx:id="btnCancelar"  text="CANCELAR" GridPane.columnIndex="1" GridPane.rowIndex="13"/>
-        <Button fx:id="btnOk"  text="REGISTRAR" GridPane.columnIndex="4"
+
+        <Button fx:id="btnOK"  text="REGISTRAR" GridPane.columnIndex="4"
                 GridPane.rowIndex="13" styleClass="compra" minWidth="100"/>
     </HBox>
 

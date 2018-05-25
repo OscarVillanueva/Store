@@ -9,6 +9,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
+import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
@@ -31,6 +32,8 @@ public class ControllerCuenta implements Initializable {
     TextField txtNombre,txtEmail,txtDireccion,txtTelefono,txtDatosTarjeta,txtPassword;
     @FXML
     DatePicker dpFecha;
+    @FXML
+    RadioButton rbCredito,rbRegalo;
     private FXMLLoader loader;
     private Parent parent;
     UsuarioDAO usuarioDAO=new UsuarioDAO(MySQL.getConnection());
@@ -71,8 +74,10 @@ public class ControllerCuenta implements Initializable {
 
     public void recibecuenta(Cuenta c)
     {
+        String desc;
         txtNombre.setText(c.getNombre());
         txtEmail.setText(c.getCorre());
+        desc=c.getDescripcion().toString();
         txtDireccion.setText(c.getDireccion());
         txtDatosTarjeta.setText(c.getDatos());
         //LocalDate localDate = c.getFechaNac().toLocalDate();
@@ -84,6 +89,16 @@ public class ControllerCuenta implements Initializable {
             admin="1";
             btnCrear.setVisible(true);
             btnEditar.setVisible(true);
+        }
+        if(desc.equals("Tarjeta de regalo"))
+        {
+            rbRegalo.setSelected(true);
+            rbCredito.setDisable(true);
+        }
+        else
+        {
+            rbCredito.setSelected(true);
+            rbRegalo.setDisable(true);
         }
         id=c.getId();
 

@@ -207,7 +207,7 @@ public class Barra implements Initializable {
     {
         CuentaDAO cuentaDAO=new CuentaDAO(MySQL.getConnection());
 
-        return cuentaDAO.cuenta("29");
+        return cuentaDAO.cuenta("30");
 
     }
 }

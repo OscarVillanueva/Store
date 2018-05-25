@@ -45,14 +45,17 @@
                 <TextField fx:id="txtTelefono" GridPane.columnIndex="2" GridPane.rowIndex="8" prefWidth="200.0" />
 
                 <Label text="Forma de pago " GridPane.columnIndex="0" GridPane.rowIndex="9" />
-    <SplitMenuButton GridPane.columnIndex="2" GridPane.rowIndex="9"  text="Seleccionar" prefWidth="300.0">
-        <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
-        </items>
-    </SplitMenuButton>
+    <fx:define>
+        <ToggleGroup fx:id="toggleGroup1" />
+    </fx:define>
+    <HBox GridPane.columnIndex="2" GridPane.rowIndex="9">
+        <RadioButton  text="Credito" fx:id="rbCredito" toggleGroup="$toggleGroup1"/>
 
-                <Label text="Datos de tarjeta " GridPane.columnIndex="0" GridPane.rowIndex="10"/>
+        <RadioButton text="Regalo" fx:id="rbRegalo" toggleGroup="$toggleGroup1"/>
+    </HBox>
+
+
+    <Label text="Datos de tarjeta " GridPane.columnIndex="0" GridPane.rowIndex="10"/>
                 <TextField fx:id="txtDatosTarjeta" GridPane.columnIndex="2" GridPane.rowIndex="10" prefWidth="200.0"/>
                 <Label GridPane.rowIndex="11" GridPane.columnIndex="0" text=""/>
                  <Label GridPane.rowIndex="12" GridPane.columnIndex="0" text=""/>

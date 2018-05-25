@@ -12,7 +12,7 @@
 <GridPane xmlns="http://javafx.com/javafx"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="sample.controllers.ControllerCuenta"
-          prefHeight="400.0" prefWidth="600.0" alignment="CENTER">
+          prefHeight="400.0" prefWidth="600.0" alignment="CENTER" fx:id="index">
     <padding>
         <Insets topRightBottomLeft="10" />
     </padding>
@@ -32,14 +32,14 @@
                 <TextField fx:id="txtEmail" GridPane.columnIndex="2" GridPane.rowIndex="4" prefWidth="200.0"/>
 
                 <Label  text="Contraseña " GridPane.columnIndex="0" GridPane.rowIndex="5" />
-                <Label fx:id="Password" text="********" GridPane.columnIndex="2" GridPane.rowIndex="5" prefWidth="200.0" />
-                <JFXButton fx:id="btnPassword" text="Editar" GridPane.columnIndex="3" GridPane.rowIndex="5"/>
+                <PasswordField fx:id="txtPassword" GridPane.columnIndex="2" GridPane.rowIndex="5" prefWidth="200.0"/>
+
 
                 <Label text="Dirección " GridPane.columnIndex="0" GridPane.rowIndex="6" />
                 <TextField fx:id="txtDireccion" GridPane.columnIndex="2" GridPane.rowIndex="6" prefWidth="200.0"/>
 
-                <Label text="Fecha de nacimiento  " GridPane.columnIndex="0" GridPane.rowIndex="7"/>
-                <TextField fx:id="txtFechaNacimiento" GridPane.columnIndex="2" GridPane.rowIndex="7" prefWidth="200.0"/>
+    <Label text="Fecha de nacimiento  " GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+    <DatePicker fx:id="dpFecha" GridPane.columnIndex="2" GridPane.rowIndex="7"/>
 
                 <Label  text="Teléfono " GridPane.columnIndex="0" GridPane.rowIndex="8"/>
                 <TextField fx:id="txtTelefono" GridPane.columnIndex="2" GridPane.rowIndex="8" prefWidth="200.0" />

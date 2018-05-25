@@ -11,17 +11,14 @@
 <?import javafx.scene.layout.HBox?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import com.jfoenix.controls.JFXPasswordField?>
 <GridPane fx:controller="sample.controllers.ControllerLogin"
-          xmlns:fx="http://javafx.com/fxml" prefWidth="300" prefHeight="300" alignment="CENTER">
+          xmlns:fx="http://javafx.com/fxml" prefWidth="300" prefHeight="300" alignment="CENTER" fx:id="index">
     <children>
         <VBox alignment="CENTER" spacing="20">
-            <HBox>
-            <JFXButton fx:id="btnback"  text="Go Back" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-                <Label text="                    "/>
-        <JFXButton fx:id="btnRegister"  text="Register" GridPane.columnIndex="5" GridPane.rowIndex="0"/>
-            </HBox>
-        <JFXTextField fx:id="txtusername"  promptText="username" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="1" />
-        <JFXTextField fx:id="txtpassword"  promptText="password" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+        <JFXTextField fx:id="txtcorreo"  promptText="correo electronico" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+        <JFXPasswordField fx:id="txtcontrasena"  promptText="contraseña" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="2" />
             <Button fx:id="btnLogin"  text="Login" GridPane.columnIndex="3" GridPane.rowIndex="3"  />
             <JFXButton fx:id="btnForgotPassword" text="Forgot password?" GridPane.columnIndex="3" GridPane.rowIndex="4" alignment="CENTER"/>
         </VBox>

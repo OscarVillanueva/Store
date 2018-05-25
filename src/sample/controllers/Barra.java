@@ -7,7 +7,9 @@ import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.VBox;
+import sample.Cuenta;
+import sample.MySQL;
+import sample.dao.CuentaDAO;
 
 import java.net.URL;
 import java.util.Optional;
@@ -32,7 +34,7 @@ public class Barra implements Initializable {
     @FXML
     public void home(){
         loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/sample/fxml/home.fxml"));
+        loader.setLocation(getClass().getResource("../fxml/home.fxml"));
         try {
             loader.load();
         } catch (Exception e) {
@@ -48,7 +50,7 @@ public class Barra implements Initializable {
         boolean isTemp = !temp.trim().isEmpty() || temp.isEmpty() == false;
         if(isTemp) {
             loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/fxml/categoria.fxml"));
+            loader.setLocation(getClass().getResource("../fxml/categoria.fxml"));
             try {
                 loader.load();
             } catch (Exception e) {
@@ -163,6 +165,8 @@ public class Barra implements Initializable {
             } catch (Exception e) {
                 System.out.println(e);
             }
+            ControllerCuenta controllerCuenta=loader.getController();
+            controllerCuenta.recibecuenta(getCuenta());
             parent = loader.getRoot();
             setContent();
         }
@@ -197,5 +201,13 @@ public class Barra implements Initializable {
         alert.setHeaderText("Esto es vergonzoso");
         alert.setContentText(mensaje);
         alert.showAndWait();
+    }
+
+    private Cuenta getCuenta()
+    {
+        CuentaDAO cuentaDAO=new CuentaDAO(MySQL.getConnection());
+
+        return cuentaDAO.cuenta("29");
+
     }
 }

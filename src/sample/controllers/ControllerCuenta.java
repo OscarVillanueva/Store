@@ -135,7 +135,7 @@ public class ControllerCuenta implements Initializable {
 
 
     private void setContent(){
-        //index.getChildren().add(parent);
+
         index.getChildren().add(parent);
     }
 }

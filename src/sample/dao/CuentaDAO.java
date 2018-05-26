@@ -42,7 +42,7 @@ public class CuentaDAO {
 
 
             //data.add(usuario);
-            //System.out.println(""+p.getNombre().toString());
+
 
         } catch (Exception e) {
             e.printStackTrace();

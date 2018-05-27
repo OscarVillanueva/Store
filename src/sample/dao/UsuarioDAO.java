@@ -22,7 +22,7 @@ public class UsuarioDAO {
                         rs.getInt("id"),
                         rs.getString("nombre"),
                         rs.getString("correo"),
-                        //rs.getString("password"),
+                        rs.getString("passwd"),
                         rs.getDate("fechaNac"),
                         rs.getString("direccion"),
                         rs.getString("telefono"),
@@ -58,7 +58,7 @@ public class UsuarioDAO {
                         rs.getInt("id"),
                         rs.getString("nombre"),
                         rs.getString("correo"),
-                        //rs.getString("password"),
+                        rs.getString("passwd"),
                         rs.getDate("fechaNac"),
                         rs.getString("direccion"),
                         rs.getString("telefono"),
@@ -86,7 +86,7 @@ public class UsuarioDAO {
                     rs.getInt("id"),
                     rs.getString("nombre"),
                     rs.getString("correo"),
-                    //rs.getString("password"),
+                    rs.getString("passwd"),
                     rs.getDate("fechaNac"),
                     rs.getString("direccion"),
                     rs.getString("telefono"),
@@ -122,16 +122,16 @@ public class UsuarioDAO {
     public Boolean insert(Usuario usuario) {
         try {
             String query = "insert into Usuarios "
-                    + " (nombre, correo, fechaNac, direccion, telefono,admin)"//agregar password despues de correo
-                    + " values (?, ?, ?, ?, ?,?)";
+                    + " (nombre, correo, passwd,fechaNac, direccion, telefono,admin)"//agregar password despues de correo
+                    + " values (?, ?, ?, ?,?,?,?)";
             PreparedStatement st = conn.prepareStatement(query);
             st.setString(1,usuario.getNombre());
             st.setString(2,usuario.getCorreo());
-            //st.setString(3,usuario.getPassword());
-            st.setDate(3,usuario.getFechaNac());
-            st.setString(4,usuario.getDireccion());
-            st.setString(5,usuario.getTelefono());
-            st.setString(6,usuario.getAdmin());
+            st.setString(3,usuario.getPasswd());
+            st.setDate(4,usuario.getFechaNac());
+            st.setString(5,usuario.getDireccion());
+            st.setString(6,usuario.getTelefono());
+            st.setString(7,usuario.getAdmin());
 
             st.execute();
             //data.add(usuario);
@@ -158,7 +158,7 @@ public class UsuarioDAO {
                         rs.getInt("idUsuario"),
                         rs.getString("nombre"),
                         rs.getString("correo"),
-                        //rs.getString("password"),
+                        rs.getString("passwd"),
                         rs.getDate("fechaNac"),
                         rs.getString("direccion"),
                         rs.getString("telefono"),
@@ -167,7 +167,7 @@ public class UsuarioDAO {
             }
 
             //data.add(usuario);
-            System.out.println(""+p.getNombre().toString());
+            // System.out.println(""+p.getNombre().toString());
             return p.getId();
         } catch (Exception e) {
             e.printStackTrace();
@@ -188,13 +188,13 @@ public class UsuarioDAO {
             rs = st.executeQuery(query);
             Usuario p = null;
             while (rs.next()) {
-               id=rs.getInt("tipoPago");
+                id=rs.getInt("tipoPago");
                 System.out.println(id);
 
             }
 
             //data.add(usuario);
-           // System.out.println(""+p.getNombre().toString());
+            // System.out.println(""+p.getNombre().toString());
             return id;
         } catch (Exception e) {
             e.printStackTrace();
@@ -207,19 +207,19 @@ public class UsuarioDAO {
     public Boolean update(Usuario usuario) {
         try {
             String query = "update Usuarios "
-                    + " set nombre = ?, correo = ?, fechaNac = ?, direccion =?, telefono = ?, admin = ?"//agregar password despues de correo
+                    + " set nombre = ?, correo = ?, passwd = ?, fechaNac = ?, direccion =?, telefono = ?, admin = ?"//agregar password despues de correo
                     + " where idUsuario=?";
             System.out.println(query + "updating....");
             PreparedStatement st = conn.prepareStatement(query);
 
             st.setString(1,usuario.getNombre());
             st.setString(2,usuario.getCorreo());
-            //st.setString(3,usuario.getPassword());
-            st.setDate(3,usuario.getFechaNac());
-            st.setString(4,usuario.getDireccion());
-            st.setString(5,usuario.getTelefono());
-            st.setString(6,usuario.getAdmin());
-            st.setInt(7, usuario.getId());
+            st.setString(3,usuario.getPasswd());
+            st.setDate(4,usuario.getFechaNac());
+            st.setString(5,usuario.getDireccion());
+            st.setString(6,usuario.getTelefono());
+            st.setString(7,usuario.getAdmin());
+            st.setInt(8, usuario.getId());
             st.execute();
             System.out.println(" g");
             return true;
@@ -229,8 +229,8 @@ public class UsuarioDAO {
         }
 
         return false;
-}
-    public  boolean existeRegistro( String correo) {
+    }
+    public  boolean existeRegistro( String correo,String passwd) {
         Statement oSt = null;
         ResultSet oRs = null;
         String sSQL = " ";
@@ -238,7 +238,7 @@ public class UsuarioDAO {
 
         try {
             conn.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
-            sSQL = "SELECT * FROM Usuarios WHERE correo='" + correo + "'";
+            sSQL = "SELECT * FROM Usuarios WHERE correo='" + correo + "' and passwd='"+passwd+"'";
 
 
             oSt = conn.createStatement();

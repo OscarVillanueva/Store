@@ -9,8 +9,10 @@ import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import sample.MySQL;
+import sample.Usuario;
 import sample.dao.UsuarioDAO;
 
 import java.net.URL;
@@ -27,6 +29,7 @@ public class ControllerLogin implements Initializable{
     private UsuarioDAO usuarioDAO = new UsuarioDAO(MySQL.getConnection());
     private FXMLLoader loader;
     private Parent parent;
+    String correo;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
@@ -45,7 +48,7 @@ public class ControllerLogin implements Initializable{
             if(event.getSource()==btnLogin)
             {
                 boolean existe=true;
-                existe=usuarioDAO.existeRegistro(txtcorreo.getText());
+                existe=usuarioDAO.existeRegistro(txtcorreo.getText(),txtcontrasena.getText());
                 if(existe==true) {
 
                     loader = new FXMLLoader();
@@ -81,7 +84,7 @@ public class ControllerLogin implements Initializable{
 
     public String correo()
     {
-        String correo=txtcorreo.getText();
+        correo=txtcorreo.getText();
         return correo;
     }
 }

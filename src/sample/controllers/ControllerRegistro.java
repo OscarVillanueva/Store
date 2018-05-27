@@ -1,5 +1,6 @@
 package sample.controllers;
 
+
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -11,6 +12,7 @@ import sample.Usuario;
 import sample.dao.FormaPagoDAO;
 import sample.dao.UsuarioDAO;
 
+import javax.swing.*;
 import java.net.URL;
 import java.sql.Date;
 import java.time.LocalDate;
@@ -41,8 +43,8 @@ public class ControllerRegistro implements Initializable {
 
 
     private UsuarioDAO usuarioDAO = new UsuarioDAO(MySQL.getConnection());
-    private sample.dao.FormaPagoDAO FormaPagoDAO = new FormaPagoDAO(MySQL.getConnection());
-   // private Usuario us;
+    private FormaPagoDAO FormaPagoDAO = new FormaPagoDAO(MySQL.getConnection());
+    // private Usuario us;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btnOK.setOnAction(eventHandler);
@@ -60,7 +62,7 @@ public class ControllerRegistro implements Initializable {
                 us.setFechaNac(Date.valueOf(localDate));
                 us.setDireccion(txtDireccion.getText());
                 us.setTelefono(txtTelefono.getText());
-                //us.setPassword(txtPassword.getText());
+                us.setPasswd(txtPassword.getText());
 
 
                 if(rbCredito.isSelected())
@@ -92,6 +94,7 @@ public class ControllerRegistro implements Initializable {
 
                 txtNombre.setText("");
                 txtEmail.setText("");
+                txtPassword.setText("");
                 //dpFecha.setValue(00-00-00);
                 txtDireccion.setText("");
                 txtTelefono.setText("");

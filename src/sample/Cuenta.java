@@ -1,26 +1,36 @@
 package sample;
 
 import java.sql.Date;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 public class Cuenta {
-    String nombre,corre,direccion,telefono,descripcion,datos,admin;
+    String nombre,corre,direccion,telefono,descripcion,datos,admin,passwd;
     Date fechaNac;
     int id;
-public Cuenta()
-{
+    public Cuenta()
+    {
 
-}
-//Añadir contraseña
-    public Cuenta(int id, String nombre, String corre, Date fechaNac, String direccion, String telefono, String descripcion, String datos, String admin) {
+    }
+    public Cuenta(int id, String nombre, String corre,String passwd, Date fechaNac, String direccion, String telefono, String descripcion, String datos,String admin) {
         this.id = id;
         this.nombre = nombre;
         this.corre = corre;
+        this.passwd=passwd;
         this.direccion = direccion;
         this.telefono = telefono;
         this.descripcion = descripcion;
         this.datos = datos;
         this.fechaNac = fechaNac;
         this.admin=admin;
+    }
+
+    public String getPasswd() {
+        return passwd;
+    }
+
+    public void setPasswd(String passwd) {
+        this.passwd = passwd;
     }
 
     public int getId() {

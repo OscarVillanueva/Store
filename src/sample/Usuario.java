@@ -3,14 +3,15 @@ package sample;
 import java.sql.Date;
 
 public class Usuario {
-String nombre,correo,direccion,telefono,admin,password;
-int id;
-Date fechaNac;
+    String nombre,correo,direccion,telefono,admin,passwd;
+    int id;
+    Date fechaNac;
 
-//agregar String password despues de correo
-    public Usuario(int id, String nombre, String correo, Date fechaNac, String direccion, String telefono, String admin) {
+    //agregar String password despues de correo
+    public Usuario(int id,String nombre, String correo,String passwd,  Date fechaNac, String direccion, String telefono, String admin) {
         this.nombre = nombre;
         this.correo = correo;
+        this.passwd=passwd;
         this.direccion = direccion;
         this.telefono = telefono;
         this.admin = admin;
@@ -21,6 +22,14 @@ Date fechaNac;
 
     public Usuario() {
 
+    }
+
+    public String getPasswd() {
+        return passwd;
+    }
+
+    public void setPasswd(String passwd) {
+        this.passwd = passwd;
     }
 
     public String getNombre() {

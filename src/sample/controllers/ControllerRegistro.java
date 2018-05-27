@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import sample.FormaPago;
+import sample.InfoUser;
 import sample.MySQL;
 import sample.Usuario;
 import sample.dao.FormaPagoDAO;
@@ -18,7 +19,7 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
-public class ControllerRegistro implements Initializable {
+public class ControllerRegistro extends InfoUser implements Initializable {
     @FXML
     Button btnOK;
     @FXML
@@ -27,18 +28,9 @@ public class ControllerRegistro implements Initializable {
     DatePicker dpFecha;
     @FXML
     RadioButton rbCredito,rbRegalo,rbAdministrador,rbUsuario;
-    Boolean loggeado;
-    String tipo;
+    /*Boolean loggeado;
+    String tipo;*/
 
-    public Boolean getLoggeado() {
-        return loggeado;
-    }
-
-
-
-    public String getTipo() {
-        return tipo;
-    }
 
 
 
@@ -86,7 +78,8 @@ public class ControllerRegistro implements Initializable {
                 }
 
                 saveUsuario(us);
-                forma.setIdUsuario(usuarioDAO.id(txtEmail.getText()));
+                idUser = usuarioDAO.id(txtEmail.getText());
+                forma.setIdUsuario(idUser);
                 saveFormaPago(forma);
 
 
@@ -101,9 +94,7 @@ public class ControllerRegistro implements Initializable {
                 txtPassword.setText("");
                 txtDatosTarjeta.setText("");
                 showmessage("Iniciar sesión con su nueva cuenta en login");
-                loggeado=true;
-
-
+                isLog = true;
             }
         }
     };

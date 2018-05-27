@@ -8,6 +8,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.layout.BorderPane;
 import sample.Cuenta;
+import sample.InfoUser;
 import sample.MySQL;
 import sample.dao.CuentaDAO;
 
@@ -15,12 +16,10 @@ import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-public class Barra implements Initializable {
-    private boolean isLog;
+public class Barra extends InfoUser implements Initializable {
     private Parent parent;
     private FXMLLoader loader;
-    private String idUser;
-    private String tipo;
+
 
     @FXML
     BorderPane index;
@@ -113,7 +112,7 @@ public class Barra implements Initializable {
                 System.out.println(e);
             }
             Compras compras = loader.getController();
-            compras.setId(idUser);
+            compras.setId(String.valueOf(idUser));
             parent = loader.getRoot();
             setContent();
         }
@@ -149,7 +148,7 @@ public class Barra implements Initializable {
         }
         parent = loader.getRoot();
         setContent();
-        isLog = true;
+
         //idUser = al usuario;
         //tipo = tipo de usuario
     }

@@ -2,949 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8843add6-1f3a-4af3-a352-f41522ef2b21" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/59049.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/59049_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/59049_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/59049_3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/Kim1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/Kim2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/Kim3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/KimKardashian.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/Pillars.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/TournaBracketGen.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/Yoga2018.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/ZombieAte1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/ZombieAte2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/ZombieAte3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/ZombiesAte.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/drift.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/drift1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/drift2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/drift3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/letitdrop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/letitdrop1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/letitdrop2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/letitdrop3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/pillars1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/pillars2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/pillars3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/rugby.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/rugby1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/rugby2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/rugby3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/sudoku.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/sudoku1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/sudoku2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/sudoku3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/word1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/word2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/word3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/recursos/wordsearch.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/Barra.class" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/Barra.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta$1.class" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta.class" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerLogin$1.class" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerLogin$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerLogin.class" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerLogin.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerRegistro.class" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerRegistro.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AZTEC3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Adult Coloring Books .png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AdultColoring1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AdultColoring1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AdultColoring2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AdultColoring2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AdultColoring3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AdultColoring3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Album de Cactus.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Album de Cactus.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AlbumCactus1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AlbumCactus1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/AlbumCactus2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/AlbumCactus2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Albumcactus3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Albumcactus3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Aquarelo3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ArcheryTune.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ArcheryTune.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ArcheryTune1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ArcheryTune1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Artist Growth.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Audiofusion.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Audiofusion.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Boom3D3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Chromatic tuner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Chromatic1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Chromatic1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Chromatic2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Chromatic2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Course for Self Defense.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Courseself1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Courseself1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Courseself2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Courseself2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Courseself3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Courseself3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DDClock3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DSLR3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Desktop Quote.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DesktopQuote1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DesktopQuote1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Dog Training 2018.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DogTraining1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DogTraining1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DogTraining2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DogTraining2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DogTraining3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DogTraining3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/DrBattery.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/DrBattery.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/El mejor Monitor para Bebé.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/EyeSpy3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fantasy Baseball Draft 2018.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FantasyBaseball1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FantasyBaseball1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FantasyBaseball2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FantasyBaseball2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FantasyBaseball3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FantasyBaseball3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fencing Fox.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fencing Fox.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FencingFox1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FencingFox1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FencingFox2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FencingFox2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Finger Basketball.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Finger Basketball.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FingerBasketball1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FingerBasketball1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FingerBasketball2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FingerBasketball2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FingerBasketball3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FingerBasketball3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Font Tools.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FontTools1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FontTools1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FontTools2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FontTools2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FontTools3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FontTools3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Football World Cup 2018 Russia.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballWorld1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballWorld1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballWorld2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballWorld2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballWorld3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballWorld3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballX.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballX.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballX1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballX1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballX2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FootballX2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Foto Lineup.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FotoLineup1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FotoLineup1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FotoLineup2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FotoLineup2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FotoLineup3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FotoLineup3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal Architect X .png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fractal3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Full Body Workout.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FullBody1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FullBody1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FullBody2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FullBody2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/FullBody3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/FullBody3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Fx too box .png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garage1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garage1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garage2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garage2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garage3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garage3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garageband.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Garageband.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Goggles3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/HEIC3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Human fall.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/I learn guitar pro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ICR3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ilearnguitar1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ilearnguitar1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ilearnguitar2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ilearnguitar2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ilearnguitar3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ilearnguitar3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/InstaBeauty3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Krav Maga Master.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/KravMaga1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/KravMaga1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/KravMaga2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/KravMaga2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/KravMaga3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/KravMaga3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Leps1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Leps1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Leps2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Leps2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Leps3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Leps3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Lepsworld.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Lepsworld.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop Mash Up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Loop3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Made Simple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MadeSimple1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MadeSimple1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MadeSimple2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MadeSimple2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MadeSimple3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MadeSimple3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapa Mental.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapamental1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapamental1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapamental2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapamental2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapamental3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mapamental3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Math Music.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MathMusic1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MathMusic1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MathMusic2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MathMusic2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MathMusic3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MathMusic3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mathway.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Mathway.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MonitorBebe1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MonitorBebe1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MonitorBebe2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MonitorBebe2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MonitorBebe3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MonitorBebe3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/My Gymnastics.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/My Gymnastics.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/My treehole .png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyGymnastics1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyGymnastics1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyGymnastics2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyGymnastics2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyGymnastics3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyGymnastics3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/MyRunning3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/New Paint X.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/New Paint1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/New Paint2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/New Paint3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/NoSleep.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/NoSleep.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Nosleep1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Nosleep1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias en español .png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Noticias3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeEstpreview1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeEstpreview1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeEstpreview2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeEstpreview2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeEstudiantesicon.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeEstudiantesicon.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogaricon.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogaricon.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogarpreview1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogarpreview1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogarpreview2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogarpreview2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogarpreview3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/OfficeHogarpreview3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PanTunes.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PanTunes.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Photo Image Editor Pixelstyle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoBlast3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoImages1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoImages1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoImages2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoImages2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoImages3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PhotoImages3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Picking glass lite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Picking1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Picking1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra Táctica.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Pizarra3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker Pro Basketball.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PlayMaker3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PokerTimer.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PokerTimer.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/PokerTimer1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/PokerTimer1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/ProcessMonitor.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/ProcessMonitor.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall .png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall .png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Rainfall3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random Number Generator.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Random3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Recipe Keeper.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeBook3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeKeeper1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeKeeper1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeKeeper2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeKeeper2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeKeeper3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/RecipeKeeper3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote for HEOS.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Remote3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Resume.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Resume.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ridersmate3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ringabell.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ringabell.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ringabell1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Ringabell1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVG1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVG1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVG2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVG2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVG3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVG3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVGViewer.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SVGViewer.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Screen Grid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Screen1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Screen1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Simplify3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smart Converter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smart Football Coach.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smart1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smart1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smart2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smart2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmartFootball1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmartFootball1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmartFootball2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmartFootball2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmartFootball3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmartFootball3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smile1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smile1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smile2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Smile2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmileAllDay.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SmileAllDay.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud de empleo .png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud de empleo .png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Solicitud3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Sports Calculator.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SportsCalculator1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SportsCalculator1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SportsCalculator2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SportsCalculator2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SportsCalculator3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SportsCalculator3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Steroides.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Steroides.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Super Brushes.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SuperBrushes1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SuperBrushes1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SuperBrushes2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SuperBrushes2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/SuperBrushes3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/SuperBrushes3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Surfr3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx Desktop app.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tacx3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tournament1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tournament1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tournament2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tournament2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tournament3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Tournament3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Track3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Treehole1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Treehole1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Treehole2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Treehole2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Treehole3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Treehole3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Video Sound Cutter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia Cámara de Seguridad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vigilancia3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage Editor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vintage3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/VirtualDJ.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/VirtualDJ.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/VirtualDJ1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/VirtualDJ1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/VirtualDJ2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/VirtualDJ2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Vocal Training Master Class.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WidsMob Viewer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WidsMob Viewer1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WidsMob Viewer2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WidsMob Viewer3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Widsmob3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wix3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wordicon.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wordicon.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wordpreview.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Wordpreview.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/World of Tanks Blitz.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WorldofTanks1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/WorldofTanks1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WorldofTanks2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/WorldofTanks2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/WorldofTanks3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/WorldofTanks3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Yoga20181.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Yoga20181.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Yoga20182.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Yoga20182.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Yoga20183.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/Yoga20183.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Zapping Radio Pro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/abacus3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/artist1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/artist1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/artist2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/artist2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/artist3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/artist3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/audiofusion1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/audiofusion1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/audiofusion2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/audiofusion2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/audiofusion3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/audiofusion3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/autotyper3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/block.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/block.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/block1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/block1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/block2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/block2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/block3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/block3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/bridge3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/brochure3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/codetim1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/codetim1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/codetime.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/codetime.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/designmyhouse3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/drbattery1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/drbattery1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/drbattery2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/drbattery2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/drcleaner3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/duolingo3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/edmodo3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/fx1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/fx1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/fx2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/fx2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/fx3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/fx3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/geogebra3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/home1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/home1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/home2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/home2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/home3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/home3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/homeassetss.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/homeassetss.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/hue3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/human1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/human1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/human2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/human2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/human3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/human3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iCard3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/iTranslate3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/mail designer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/maildesigner1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/maildesigner1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/maildesigner2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/maildesigner2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/maildesigner3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/maildesigner3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/math1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/math1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/math2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/math2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/math3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/math3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/orcland3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/pantunes1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/pantunes1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano virtuoso.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/piano3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/processmonitor1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/processmonitor1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/processmonitor2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/processmonitor2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/processmonitor3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/processmonitor3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/racerplus3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/resume1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/resume1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/resume2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/resume2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/resume3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/resume3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe deposit box.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/safe3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/samurai1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/samurai1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/samurai2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/samurai2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/samurai3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/samurai3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/samuraivszombis.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/samuraivszombis.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/shazam3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/sims3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/slomo3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/solitario3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/steroides1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/steroides1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/steroides2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/steroides2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/steroides3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/steroides3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/udemy3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/upic3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/videosound1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/videosound1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/videosound2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/videosound2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/vocal1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/vocal1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/vocal2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/vocal2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/vocal3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/vocal3.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/xstacking.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/xstacking.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/xstacking1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/xstacking1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/xstacking2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/xstacking2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/zapping1.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/zapping1.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/zapping2.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/zapping2.png" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/zapping3.png" afterPath="$PROJECT_DIR$/out/production/Store/sample/recursos/zapping3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Cuenta.java" afterPath="$PROJECT_DIR$/src/sample/Cuenta.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Usuario.java" afterPath="$PROJECT_DIR$/src/sample/Usuario.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controllers/Barra.java" afterPath="$PROJECT_DIR$/src/sample/controllers/Barra.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java" afterPath="$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controllers/ControllerLogin.java" afterPath="$PROJECT_DIR$/src/sample/controllers/ControllerLogin.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java" afterPath="$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/dao/CuentaDAO.java" afterPath="$PROJECT_DIR$/src/sample/dao/CuentaDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/dao/FormaPagoDAO.java" afterPath="$PROJECT_DIR$/src/sample/dao/FormaPagoDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/dao/UsuarioDAO.java" afterPath="$PROJECT_DIR$/src/sample/dao/UsuarioDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AZTEC.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AZTEC.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AZTEC1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AZTEC1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AZTEC2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AZTEC2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AZTEC3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AZTEC3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Adult Coloring Books .png" afterPath="$PROJECT_DIR$/src/sample/recursos/AdultColoringBooks.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AdultColoring1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AdultColoring1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AdultColoring2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AdultColoring2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AdultColoring3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AdultColoring3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Album de Cactus.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Album de Cactus.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AlbumCactus1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AlbumCactus1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/AlbumCactus2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/AlbumCactus2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Albumcactus3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Albumcactus3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Aquarelo.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Aquarelo.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Aquarelo1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Aquarelo1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Aquarelo2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Aquarelo2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Aquarelo3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Aquarelo3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ArcheryTune.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ArcheryTune.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ArcheryTune1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ArcheryTune1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Artist Growth.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ArtistGrowth.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Audiofusion.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Audiofusion.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Boom3D.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Boom3D.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Boom3D1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Boom3D1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Boom3D2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Boom3D2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Boom3D3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Boom3D3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Chromatic tuner.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Chromatictuner.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Chromatic1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Chromatic1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Chromatic2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Chromatic2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Course for Self Defense.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Courseself1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Courseself1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Courseself2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Courseself2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Courseself3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Courseself3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DDClock.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DDClock.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DDClock1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DDClock1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DDClock2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DDClock2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DDClock3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DDClock3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DSLR.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DSLR.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DSLR1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DSLR1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DSLR2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DSLR2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DSLR3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DSLR3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Desktop Quote.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DesktopQuote.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DesktopQuote1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DesktopQuote1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Dog Training 2018.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DogTraining2018.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DogTraining1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DogTraining1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DogTraining2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DogTraining2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DogTraining3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DogTraining3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/DrBattery.png" afterPath="$PROJECT_DIR$/src/sample/recursos/DrBattery.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/El mejor Monitor para Bebé.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/EyeSpy.png" afterPath="$PROJECT_DIR$/src/sample/recursos/EyeSpy.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/EyeSpy1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/EyeSpy1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/EyeSpy2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/EyeSpy2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/EyeSpy3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/EyeSpy3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fantasy Baseball Draft 2018.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseballDraft2018.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseball1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseball1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseball2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseball2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseball3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FantasyBaseball3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fencing Fox.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Fencing Fox.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FencingFox1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FencingFox1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FencingFox2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FencingFox2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Finger Basketball.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Finger Basketball.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FingerBasketball1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FingerBasketball1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FingerBasketball2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FingerBasketball2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FingerBasketball3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FingerBasketball3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Font Tools.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FontTools.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FontTools1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FontTools1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FontTools2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FontTools2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FontTools3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FontTools3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Football World Cup 2018 Russia.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballWorldCup2018Russia.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FootballWorld1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballWorld1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FootballWorld2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballWorld2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FootballWorld3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballWorld3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FootballX.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballX.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FootballX1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballX1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FootballX2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FootballX2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Foto Lineup.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FotoLineup.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FotoLineup1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FotoLineup1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FotoLineup2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FotoLineup2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FotoLineup3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FotoLineup3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fractal Architect X .png" afterPath="$PROJECT_DIR$/src/sample/recursos/FractalArchitectX.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fractal1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Fractal1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fractal2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Fractal2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fractal3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Fractal3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Full Body Workout.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FullBodyWorkout.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FullBody1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FullBody1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FullBody2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FullBody2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/FullBody3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/FullBody3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Fx too box .png" afterPath="$PROJECT_DIR$/src/sample/recursos/Fxtoobox.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Garage1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Garage1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Garage2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Garage2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Garage3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Garage3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Garageband.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Garageband.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Goggles.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Goggles.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Goggles1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Goggles1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Goggles2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Goggles2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Goggles3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Goggles3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/HEIC.png" afterPath="$PROJECT_DIR$/src/sample/recursos/HEIC.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/HEIC1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/HEIC1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/HEIC2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/HEIC2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/HEIC3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/HEIC3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Human fall.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Humanfall.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/I learn guitar pro.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ILearnGuitarPro.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ICR.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ICR.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ICR1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ICR1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ICR2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ICR2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ICR3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ICR3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ilearnguitar1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ilearnguitar1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ilearnguitar2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ilearnguitar2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ilearnguitar3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ilearnguitar3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty.png" afterPath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/InstaBeauty3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Krav Maga Master.png" afterPath="$PROJECT_DIR$/src/sample/recursos/KravMagaMaster.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/KravMaga1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/KravMaga1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/KravMaga2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/KravMaga2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/KravMaga3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/KravMaga3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Leps1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Leps1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Leps2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Leps2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Leps3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Leps3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Lepsworld.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Lepsworld.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Loop Mash Up.png" afterPath="$PROJECT_DIR$/src/sample/recursos/LoopMash.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Loop1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Loop1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Loop2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Loop2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Loop3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Loop3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Made Simple.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MadeSimple.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MadeSimple1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MadeSimple1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MadeSimple2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MadeSimple2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MadeSimple3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MadeSimple3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Mapa Mental.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MapaMental.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Mapamental1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Mapamental1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Mapamental2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Mapamental2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Mapamental3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Mapamental3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Math Music.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MathMusic.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MathMusic1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MathMusic1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MathMusic2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MathMusic2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MathMusic3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MathMusic3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Mathway.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Mathway.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MonitorBebe1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MonitorBebe1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MonitorBebe2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MonitorBebe2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MonitorBebe3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MonitorBebe3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/My Gymnastics.png" afterPath="$PROJECT_DIR$/src/sample/recursos/My Gymnastics.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/My treehole .png" afterPath="$PROJECT_DIR$/src/sample/recursos/Mytreehole.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyGymnastics1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyGymnastics1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyGymnastics2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyGymnastics2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyGymnastics3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyGymnastics3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyRunning.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyRunning.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyRunning1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyRunning1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyRunning2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyRunning2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/MyRunning3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/MyRunning3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/New Paint X.png" afterPath="$PROJECT_DIR$/src/sample/recursos/NewPaintX.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/New Paint1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/NewPaint1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/New Paint2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/NewPaint2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/New Paint3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/NewPaint3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/NoSleep.png" afterPath="$PROJECT_DIR$/src/sample/recursos/NoSleep.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Nosleep1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Nosleep1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Noticias en español .png" afterPath="$PROJECT_DIR$/src/sample/recursos/Noticiasenespañol.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Noticias1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Noticias1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Noticias2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Noticias2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Noticias3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Noticias3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeEstpreview1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeEstpreview1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeEstpreview2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeEstpreview2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeEstudiantesicon.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeEstudiantesicon.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeHogaricon.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeHogaricon.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeHogarpreview1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeHogarpreview1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeHogarpreview2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeHogarpreview2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/OfficeHogarpreview3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/OfficeHogarpreview3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PanTunes.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PanTunes.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Photo Image Editor Pixelstyle.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoImageEditorPixelstyle.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoBlast3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoImages1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoImages1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoImages2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoImages2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PhotoImages3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PhotoImages3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Picking glass lite.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PickingGlassLite.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Picking1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Picking1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Pizarra Táctica.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Pizarra1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Pizarra1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Pizarra2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Pizarra2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Pizarra3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Pizarra3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PlayMaker Pro Basketball.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PlayMakerProBasketball.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PlayMaker1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PlayMaker1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PlayMaker2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PlayMaker2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PlayMaker3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PlayMaker3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PokerTimer.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PokerTimer.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/PokerTimer1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/PokerTimer1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/ProcessMonitor.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ProcessMonitor.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Rainfall .png" afterPath="$PROJECT_DIR$/src/sample/recursos/Rainfall .png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Rainfall1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Rainfall1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Rainfall2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Rainfall2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Rainfall3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Rainfall3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Random Number Generator.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RandomNumberGenerator.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Random1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Random1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Random2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Random2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Random3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Random3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Recipe Keeper.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeBook.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeBook.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeBook1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeBook1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeBook2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeBook2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeBook3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeBook3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RecipeKeeper3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Remote for HEOS.png" afterPath="$PROJECT_DIR$/src/sample/recursos/RemoteforHEOS.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Remote1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Remote1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Remote2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Remote2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Remote3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Remote3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Resume.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Resume.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ridersmate.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ridersmate.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ridersmate1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ridersmate1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ridersmate2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ridersmate2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ridersmate3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ridersmate3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ringabell.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ringabell.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Ringabell1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Ringabell1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SVG1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SVG1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SVG2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SVG2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SVG3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SVG3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SVGViewer.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SVGViewer.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Screen Grid.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ScreenGrid.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Screen1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Screen1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Simplify.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Simplify.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Simplify1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Simplify1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Simplify2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Simplify2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Simplify3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Simplify3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Smart Converter.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SmartConverter.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Smart Football Coach.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SmartFootballCoach.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Smart1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Smart1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Smart2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Smart2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SmartFootball1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SmartFootball1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SmartFootball2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SmartFootball2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SmartFootball3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SmartFootball3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Smile1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Smile1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Smile2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Smile2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SmileAllDay.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SmileAllDay.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Solicitud de empleo .png" afterPath="$PROJECT_DIR$/src/sample/recursos/Solicitud de empleo .png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Solicitud1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Solicitud1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Solicitud2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Solicitud2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Solicitud3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Solicitud3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Sports Calculator.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SportsCalculator3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Steroides.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Steroides.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Super Brushes.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/SuperBrushes3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Surfr.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Surfr.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Surfr1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Surfr1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Surfr2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Surfr2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Surfr3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Surfr3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tacx Desktop app.png" afterPath="$PROJECT_DIR$/src/sample/recursos/TacxDesktopapp.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tacx1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Tacx1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tacx2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Tacx2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tacx3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Tacx3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tournament1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Tournament1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tournament2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Tournament2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Tournament3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Tournament3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Track.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Track.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Track1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Track1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Track2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Track2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Track3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Track3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Treehole1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Treehole1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Treehole2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Treehole2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Treehole3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Treehole3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Video Sound Cutter.png" afterPath="$PROJECT_DIR$/src/sample/recursos/videosound.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vigilancia Cámara de Seguridad.png" afterPath="$PROJECT_DIR$/src/sample/recursos/VigilanciaCamara.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vigilancia1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Vigilancia1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vigilancia2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Vigilancia2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vigilancia3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Vigilancia3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vintage Editor.png" afterPath="$PROJECT_DIR$/src/sample/recursos/VintageEditor.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vintage1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Vintage1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vintage2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Vintage2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vintage3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Vintage3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ.png" afterPath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/VirtualDJ2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Vocal Training Master Class.png" afterPath="$PROJECT_DIR$/src/sample/recursos/VocalTraining.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WidsMob Viewer.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WidsMobViewer.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WidsMob Viewer1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WidsMobViewer1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WidsMob Viewer2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WidsMobViewer2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WidsMob Viewer3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WidsMobViewer3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Widsmob.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Widsmob.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Widsmob1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Widsmob1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Widsmob2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Widsmob2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Widsmob3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Widsmob3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Wix.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Wix.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Wix1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Wix1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Wix2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Wix2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Wix3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Wix3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Wordicon.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Wordicon.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Wordpreview.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Wordpreview.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/World of Tanks Blitz.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WorldorTanksBlitz.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WorldofTanks1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WorldofTanks1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WorldofTanks2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WorldofTanks2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/WorldofTanks3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/WorldofTanks3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Yoga20181.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Yoga20181.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Yoga20182.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Yoga20182.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Yoga20183.png" afterPath="$PROJECT_DIR$/src/sample/recursos/Yoga20183.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Zapping Radio Pro.png" afterPath="$PROJECT_DIR$/src/sample/recursos/ZappingRadioPro.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/abacus.png" afterPath="$PROJECT_DIR$/src/sample/recursos/abacus.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/abacus1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/abacus1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/abacus2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/abacus2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/abacus3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/abacus3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/artist1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/artist1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/artist2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/artist2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/artist3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/artist3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/audiofusion1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/audiofusion1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/audiofusion2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/audiofusion2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/audiofusion3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/audiofusion3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/autotyper.png" afterPath="$PROJECT_DIR$/src/sample/recursos/autotyper.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/autotyper1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/autotyper1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/autotyper2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/autotyper2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/autotyper3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/autotyper3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/block.png" afterPath="$PROJECT_DIR$/src/sample/recursos/block.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/block1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/block1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/block2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/block2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/block3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/block3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/bridge.png" afterPath="$PROJECT_DIR$/src/sample/recursos/bridge.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/bridge1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/bridge1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/bridge2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/bridge2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/bridge3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/bridge3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/brochure.png" afterPath="$PROJECT_DIR$/src/sample/recursos/brochure.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/brochure1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/brochure1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/brochure2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/brochure2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/brochure3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/brochure3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/codetim1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/codetim1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/codetime.png" afterPath="$PROJECT_DIR$/src/sample/recursos/codetime.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/designmyhouse.png" afterPath="$PROJECT_DIR$/src/sample/recursos/designmyhouse.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/designmyhouse1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/designmyhouse1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/designmyhouse2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/designmyhouse2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/designmyhouse3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/designmyhouse3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/drbattery1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/drbattery1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/drbattery2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/drbattery2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/drcleaner.png" afterPath="$PROJECT_DIR$/src/sample/recursos/drcleaner.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/drcleaner1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/drcleaner1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/drcleaner2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/drcleaner2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/drcleaner3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/drcleaner3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/duolingo.png" afterPath="$PROJECT_DIR$/src/sample/recursos/duolingo.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/duolingo1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/duolingo1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/duolingo2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/duolingo2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/duolingo3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/duolingo3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/edmodo.png" afterPath="$PROJECT_DIR$/src/sample/recursos/edmodo.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/edmodo1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/edmodo1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/edmodo2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/edmodo2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/edmodo3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/edmodo3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/fx1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/fx1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/fx2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/fx2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/fx3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/fx3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/geogebra.png" afterPath="$PROJECT_DIR$/src/sample/recursos/geogebra.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/geogebra1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/geogebra1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/geogebra2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/geogebra2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/geogebra3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/geogebra3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/home1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/home1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/home2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/home2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/home3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/home3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/homeassetss.png" afterPath="$PROJECT_DIR$/src/sample/recursos/homeassetss.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/hue.png" afterPath="$PROJECT_DIR$/src/sample/recursos/hue.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/hue1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/hue1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/hue2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/hue2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/hue3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/hue3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/human1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/human1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/human2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/human2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/human3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/human3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iCard.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iCard.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iCard1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iCard1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iCard2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iCard2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iCard3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iCard3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iTranslate.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iTranslate.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iTranslate1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iTranslate1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iTranslate2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iTranslate2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/iTranslate3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/iTranslate3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/mail designer.png" afterPath="$PROJECT_DIR$/src/sample/recursos/mailDesigner.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/maildesigner1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/maildesigner1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/maildesigner2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/maildesigner2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/maildesigner3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/maildesigner3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/math1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/math1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/math2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/math2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/math3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/math3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/orcland.png" afterPath="$PROJECT_DIR$/src/sample/recursos/orcland.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/orcland1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/orcland1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/orcland2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/orcland2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/orcland3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/orcland3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/pantunes1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/pantunes1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/piano virtuoso.png" afterPath="$PROJECT_DIR$/src/sample/recursos/pianoVirtuoso.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/piano1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/piano1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/piano2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/piano2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/piano3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/piano3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/processmonitor1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/processmonitor1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/processmonitor2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/processmonitor2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/processmonitor3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/processmonitor3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/racerplus.png" afterPath="$PROJECT_DIR$/src/sample/recursos/racerplus.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/racerplus1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/racerplus1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/racerplus2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/racerplus2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/racerplus3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/racerplus3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/resume1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/resume1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/resume2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/resume2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/resume3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/resume3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/safe deposit box.png" afterPath="$PROJECT_DIR$/src/sample/recursos/safedeposit.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/safe1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/safe1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/safe2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/safe2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/safe3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/safe3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/samurai1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/samurai1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/samurai2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/samurai2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/samurai3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/samurai3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/samuraivszombis.png" afterPath="$PROJECT_DIR$/src/sample/recursos/samuraivszombis.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/shazam.png" afterPath="$PROJECT_DIR$/src/sample/recursos/shazam.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/shazam1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/shazam1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/shazam2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/shazam2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/shazam3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/shazam3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/sims.png" afterPath="$PROJECT_DIR$/src/sample/recursos/sims.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/sims1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/sims1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/sims2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/sims2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/sims3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/sims3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/slomo.png" afterPath="$PROJECT_DIR$/src/sample/recursos/slomo.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/slomo1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/slomo1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/slomo2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/slomo2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/slomo3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/slomo3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/solitario.png" afterPath="$PROJECT_DIR$/src/sample/recursos/solitario.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/solitario1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/solitario1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/solitario2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/solitario2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/solitario3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/solitario3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/steroides1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/steroides1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/steroides2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/steroides2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/steroides3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/steroides3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/udemy.png" afterPath="$PROJECT_DIR$/src/sample/recursos/udemy.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/udemy1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/udemy1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/udemy2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/udemy2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/udemy3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/udemy3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/upic.png" afterPath="$PROJECT_DIR$/src/sample/recursos/upic.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/upic1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/upic1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/upic2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/upic2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/upic3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/upic3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/videosound1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/videosound1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/videosound2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/videosound2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/vocal1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/vocal1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/vocal2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/vocal2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/vocal3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/vocal3.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/xstacking.png" afterPath="$PROJECT_DIR$/src/sample/recursos/xstacking.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/xstacking1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/xstacking1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/xstacking2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/xstacking2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/zapping1.png" afterPath="$PROJECT_DIR$/src/sample/recursos/zapping1.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/zapping2.png" afterPath="$PROJECT_DIR$/src/sample/recursos/zapping2.png" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/zapping3.png" afterPath="$PROJECT_DIR$/src/sample/recursos/zapping3.png" />
+      <change afterPath="$PROJECT_DIR$/src/sample/InfoUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/Barra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/Barra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/Barra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/Barra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -955,13 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -969,36 +30,108 @@
       <file leaf-file-name="ControllerCuenta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="749">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Barra.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Barra.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/controllers/Barra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="209" column="34" lean-forward="false" selection-start-line="209" selection-start-column="34" selection-end-line="209" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="428">
+              <caret line="114" column="50" lean-forward="true" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CuentaDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/dao/CuentaDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controllers/Home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-598">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerRegistro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+              <folding>
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#3200#3201#0" expanded="true" />
+                <element signature="e#3249#3250#0" expanded="true" />
+                <element signature="e#3299#3300#0" expanded="true" />
+                <element signature="e#3343#3344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormaPago.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/FormaPago.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/InfoUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/sample/InfoUser.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java" />
         <option value="$PROJECT_DIR$/src/sample/controllers/Barra.java" />
       </list>
     </option>
@@ -1009,29 +142,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1050,24 +173,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="recursos" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1093,48 +204,23 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Store" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Store" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -1144,24 +230,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -1174,17 +249,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -1193,13 +272,10 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1212,42 +288,45 @@
       <option name="presentableId" value="Default" />
       <updated>1527391457450</updated>
       <workItem from="1527391458832" duration="423000" />
+      <workItem from="1527392415065" duration="731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423000" />
+    <option name="totallyTimeSpent" value="1154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24930556" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1256,37 +335,109 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1088">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/recursos/Vigilancia Cámara de Seguridad.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controllers/Barra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="209" column="34" lean-forward="false" selection-start-line="209" selection-start-column="34" selection-end-line="209" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="3332">
+          <caret line="209" column="34" selection-start-line="209" selection-start-column="34" selection-end-line="209" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/recursos/Vigilancia Cámara de Seguridad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/InfoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/FormaPago.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerRegistro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+          <folding>
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+            <element signature="e#3299#3300#0" expanded="true" />
+            <element signature="e#3343#3344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Barra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="114" column="50" lean-forward="true" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/dao/CuentaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

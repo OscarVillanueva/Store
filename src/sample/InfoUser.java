@@ -1,9 +1,17 @@
 package sample;
 
-public class InfoUser {
+import java.io.Serializable;
+
+public class InfoUser implements Serializable{
     protected int idUser;
-    protected boolean isLog;
+    protected boolean isLog = false;
     protected String tipo;
+
+    public InfoUser(int idUser, boolean isLog, String tipo) {
+        this.idUser = idUser;
+        this.isLog = isLog;
+        this.tipo = tipo;
+    }
 
     public boolean isLog() {
         return isLog;
@@ -28,4 +36,6 @@ public class InfoUser {
     public void setIdUser(int idUser) {
         this.idUser = idUser;
     }
+
+
 }

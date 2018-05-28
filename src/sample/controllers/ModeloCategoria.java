@@ -53,7 +53,7 @@ public class ModeloCategoria implements Initializable {
 
         }
         Detalles detallar = loader.getController();
-        //detallar.setInit(); con los datos de la consulata
+        //detallar.setInit(); con los datos de la consulta
         Parent root = loader.getRoot();
         /*Scene scene = new Scene(root, 300, 275);
         scene.getStylesheets().add(getClass().getResource("/sample/css/estilos.css").toExternalForm());

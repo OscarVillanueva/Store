@@ -10,16 +10,18 @@ import javafx.scene.layout.BorderPane;
 import sample.Cuenta;
 import sample.InfoUser;
 import sample.MySQL;
+import sample.Persistencia;
 import sample.dao.CuentaDAO;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-public class Barra extends InfoUser implements Initializable {
+public class Barra implements Initializable {
     private Parent parent;
     private FXMLLoader loader;
-
+    private InfoUser infoUser;
 
     @FXML
     BorderPane index;
@@ -27,7 +29,12 @@ public class Barra extends InfoUser implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         home();
-        isLog = false;
+        Persistencia persistencia = new Persistencia();
+        try {
+            persistencia.emptyFile("data.dat");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
@@ -103,18 +110,21 @@ public class Barra extends InfoUser implements Initializable {
 
     @FXML
     public void compras(){
-        if(isLog) {
-            loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/fxml/compras.fxml"));
-            try {
-                loader.load();
-            } catch (Exception e) {
-                System.out.println(e);
+        setUser();
+        if(infoUser!=null) {
+            if (infoUser.isLog()) {
+                loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("/sample/fxml/compras.fxml"));
+                try {
+                    loader.load();
+                } catch (Exception e) {
+                    System.out.println(e);
+                }
+                Compras compras = loader.getController();
+                compras.setId(String.valueOf(infoUser.getIdUser()));
+                parent = loader.getRoot();
+                setContent();
             }
-            Compras compras = loader.getController();
-            compras.setId(String.valueOf(idUser));
-            parent = loader.getRoot();
-            setContent();
         }
         else
             ocurio("Debes estar loggeado para ver las compras");
@@ -122,7 +132,6 @@ public class Barra extends InfoUser implements Initializable {
 
     @FXML
     public void login(){
-
         loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/sample/fxml/Login.fxml"));
         try {
@@ -132,7 +141,7 @@ public class Barra extends InfoUser implements Initializable {
         }
         parent = loader.getRoot();
         setContent();
-        isLog = true;
+        //isLog = true;
         //idUser = al usuario;
         //tipo = tipo de usuario que es
     }
@@ -155,22 +164,25 @@ public class Barra extends InfoUser implements Initializable {
 
     @FXML
     public void cuenta(){
-        if(isLog){
-            //modificar para mandar llamar las pantallas de mariana
-            loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/fxml/Cuenta.fxml"));
-            try {
-                loader.load();
-            } catch (Exception e) {
-                System.out.println(e);
+        setUser();
+        if(infoUser!=null) {
+            if (infoUser.isLog()) {
+                //modificar para mandar llamar las pantallas de mariana
+                loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("../fxml/Cuenta.fxml"));
+                try {
+                    loader.load();
+                } catch (Exception e) {
+                    System.out.println(e);
+                }
+                ControllerCuenta controllerCuenta = loader.getController();
+                controllerCuenta.recibecuenta(getCuenta());
+                parent = loader.getRoot();
+                setContent();
             }
-            ControllerCuenta controllerCuenta=loader.getController();
-            controllerCuenta.recibecuenta(getCuenta());
-            parent = loader.getRoot();
-            setContent();
         }
         else
-            ocurio("Destar loggeado para ver tu cuenta");
+            ocurio("Debes estar loggeado para ver tu cuenta");
     }
 
     private void setContent(){
@@ -204,9 +216,21 @@ public class Barra extends InfoUser implements Initializable {
 
     private Cuenta getCuenta()
     {
+        setUser();
         CuentaDAO cuentaDAO=new CuentaDAO(MySQL.getConnection());
 
-        return cuentaDAO.cuenta("2");
+        return cuentaDAO.cuenta(String.valueOf(infoUser.getIdUser()));
 
+    }
+
+    private void setUser(){
+        Persistencia persistencia = new Persistencia();
+        try {
+            infoUser = persistencia.checarUsuario();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

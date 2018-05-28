@@ -54,16 +54,18 @@ public class Home implements Initializable {
 
     private void init(){
         parallaxs = new String[]{
-                "/sample/recursos/pub9.png",
-                "/sample/recursos/pub8.png",
-                "/sample/recursos/pub7.png",
-                "/sample/recursos/pub6.png",
-                "/sample/recursos/pub5.png",
+                "/sample/recursos/pub1.jpg",
+                "/sample/recursos/pub2.png",
+                "/sample/recursos/pub3.png",
                 "/sample/recursos/pub4.png",
-                "/sample/recursos/pub3.png"};
+                "/sample/recursos/pub5.png",
+                "/sample/recursos/pub6.png",
+                "/sample/recursos/pub7.png"};
         Random random = new Random();
         //System.out.println(random.nextInt(7));
-        parallax.setImage(new Image(parallaxs[random.nextInt(6) + 0]));
+        int temp = random.nextInt(6) + 0;
+        //System.out.println(temp);
+        parallax.setImage(new Image(parallaxs[temp]));
         addCategorias();
         addMediaPlayer();
     }

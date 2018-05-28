@@ -6,10 +6,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import sample.FormaPago;
-import sample.InfoUser;
-import sample.MySQL;
-import sample.Usuario;
+import sample.*;
 import sample.dao.FormaPagoDAO;
 import sample.dao.UsuarioDAO;
 
@@ -19,7 +16,7 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
-public class ControllerRegistro extends InfoUser implements Initializable {
+public class ControllerRegistro implements Initializable {
     @FXML
     Button btnOK;
     @FXML
@@ -28,9 +25,9 @@ public class ControllerRegistro extends InfoUser implements Initializable {
     DatePicker dpFecha;
     @FXML
     RadioButton rbCredito,rbRegalo,rbAdministrador,rbUsuario;
-    /*Boolean loggeado;
-    String tipo;*/
-
+    Boolean loggeado;
+    String tipo;
+    int idUser;
 
 
 
@@ -94,7 +91,9 @@ public class ControllerRegistro extends InfoUser implements Initializable {
                 txtPassword.setText("");
                 txtDatosTarjeta.setText("");
                 showmessage("Iniciar sesión con su nueva cuenta en login");
-                isLog = true;
+                loggeado = true;
+
+                guardarLogin(new InfoUser(idUser,loggeado,tipo));
             }
         }
     };
@@ -112,5 +111,11 @@ public class ControllerRegistro extends InfoUser implements Initializable {
         alert.setTitle("Mensaje");
         alert.setContentText(mensaje);
         alert.show();
+    }
+
+    public void guardarLogin(InfoUser datos){
+        Persistencia persistencia = new Persistencia();
+        persistencia.iniciar();
+        persistencia.guardarSesion(datos);
     }
 }

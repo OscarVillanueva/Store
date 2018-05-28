@@ -11,7 +11,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import sample.InfoUser;
 import sample.MySQL;
+import sample.Persistencia;
 import sample.Usuario;
 import sample.dao.UsuarioDAO;
 
@@ -29,10 +31,14 @@ public class ControllerLogin implements Initializable{
     private UsuarioDAO usuarioDAO = new UsuarioDAO(MySQL.getConnection());
     private FXMLLoader loader;
     private Parent parent;
+    private boolean isLog;
+    private int idUser;
+    private String tipo;
+
+
     String correo;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
         btnLogin.setOnAction(handler);
         btnForgotPassword.setOnAction(handler);
 
@@ -50,7 +56,10 @@ public class ControllerLogin implements Initializable{
                 boolean existe=true;
                 existe=usuarioDAO.existeRegistro(txtcorreo.getText(),txtcontrasena.getText());
                 if(existe==true) {
-
+                    isLog = true;
+                    idUser = usuarioDAO.id(txtcorreo.getText());
+                    tipo = usuarioDAO.getTipo(txtcorreo.getText());
+                    guardarLogin(new InfoUser(idUser,isLog,tipo));
                     loader = new FXMLLoader();
                     loader.setLocation(getClass().getResource("../fxml/home.fxml"));
                     try {
@@ -86,5 +95,14 @@ public class ControllerLogin implements Initializable{
     {
         correo=txtcorreo.getText();
         return correo;
+    }
+    public GridPane getIndex() {
+        return index;
+    }
+
+    public void guardarLogin(InfoUser datos){
+        Persistencia persistencia = new Persistencia();
+        persistencia.iniciar();
+        persistencia.guardarSesion(datos);
     }
 }

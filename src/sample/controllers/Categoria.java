@@ -14,8 +14,12 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import sample.App;
+import sample.MySQL;
+import sample.dao.AppDao;
 
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class Categoria implements Initializable {
@@ -35,7 +39,7 @@ public class Categoria implements Initializable {
         //initCategoria();
     }
 
-    public void initCategoria() {
+    public void initCategoria(ArrayList<App> apps) {
         ScrollPane centro = new ScrollPane();
         centro.getStylesheets().add(getClass().getResource("/sample/css/estilos.css").toExternalForm());
         centro.setMaxSize(1400,800);
@@ -43,23 +47,37 @@ public class Categoria implements Initializable {
         GridPane tableApps = new GridPane();
         tableApps.setAlignment(Pos.CENTER);
         tableApps.setHgap(15);
-        for (int j = 0; j < 3; j++) {
-            for (int i = 0; i < 7; i++) {
+        int contador = 0;
+        int j = 0;
+        int i = 0;
+        int limit = apps.size() / 7;
+        limit++;
+        for (j = 0; j < limit; j++) {
+            //for (i = 0; i < 7; i++) {
+                while (contador<apps.size()&&i<7) {
+                    App detaApp = apps.get(contador);
+                    FXMLLoader loader = new FXMLLoader();
+                    loader.setLocation(getClass().getResource("/sample/fxml/modeloCategoria.fxml"));
+                    try {
+                        loader.load();
+                    } catch (Exception e) {
 
-                FXMLLoader loader = new FXMLLoader();
-                loader.setLocation(getClass().getResource("/sample/fxml/modeloCategoria.fxml"));
-                try {
-                    loader.load();
-                } catch (Exception e) {
-
+                    }
+                    ModeloCategoria modeloCategoria = loader.getController();
+                    //se llenan con los datos que tengan los arreglos
+                    //modeloCategoria.setData("/sample/recursos/abacus.png", "Ferrari", "");
+                    modeloCategoria.setData(detaApp.getIcono(), detaApp.getNombre(), String.valueOf(detaApp.getIdApp()));
+                    Parent app = loader.getRoot();
+                    GridPane.setHalignment(app, HPos.CENTER);
+                    tableApps.add(app, i, j);
+                    i++;
+                    if (contador < apps.size())
+                        contador++;
+                    else
+                        break;
                 }
-                ModeloCategoria modeloCategoria = loader.getController();
-                //se llenan con los datos que tengan los arreglos
-                modeloCategoria.setData("/sample/recursos/abacus.png", "Ferrari", "");
-                Parent app = loader.getRoot();
-                GridPane.setHalignment(app,HPos.CENTER);
-                tableApps.add(app,i,j);
-            }
+                i=0;
+           // }
         }
         centro.setContent(tableApps);
         panelCategoria.getChildren().add(centro);
@@ -67,7 +85,17 @@ public class Categoria implements Initializable {
 
     public void setId(String id){
         this.id = id;
+        ArrayList<App> apps = new ArrayList<>();
+        AppDao appDao = new AppDao(MySQL.getConnection());
+        switch (id){
+            case "Algunas Apps":
+                apps = appDao.getAll();
+                break;
+            default:
+                apps = appDao.getCategoryApp(id);
+                break;
+        }
         labelTitulo.setText(id);
-        initCategoria();
+        initCategoria(apps);
     }
 }

@@ -21,7 +21,7 @@ public class CuentaDAO {
         try {
             String query ="select Usuarios.idUsuario as id,admin,nombre, correo,passwd, fechaNac, direccion, telefono,descripcion, datos from Usuarios inner join formaPago on formaPago.idUsuario=Usuarios.idUsuario inner join tipoPago on formaPago.tipoPago=tipoPago.tipoPago where Usuarios.idUsuario='"+id+"'";
 
-            System.out.println(query);
+            //System.out.println(query);
             Statement st = conn.createStatement();
             rs = st.executeQuery(query);
             Cuenta p = null;
@@ -40,9 +40,6 @@ public class CuentaDAO {
 
 
             }
-
-
-
             //data.add(usuario);
             //System.out.println(""+p.getNombre().toString());
 

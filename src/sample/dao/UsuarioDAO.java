@@ -177,6 +177,40 @@ public class UsuarioDAO {
 
         return 0;
     }
+    public String getTipo(String correo){
+        ResultSet rs = null;
+        Usuario er = null;
+        try {
+            String query = "SELECT * from Usuarios WHERE correo= '"+correo+"'";
+            System.out.println(query);
+            Statement st = conn.createStatement();
+            rs = st.executeQuery(query);
+            Usuario p = null;
+            while (rs.next()) {
+                p = new Usuario(
+
+                        rs.getInt("idUsuario"),
+                        rs.getString("nombre"),
+                        rs.getString("correo"),
+                        rs.getString("passwd"),
+                        rs.getDate("fechaNac"),
+                        rs.getString("direccion"),
+                        rs.getString("telefono"),
+                        rs.getString("admin"));
+
+            }
+
+            //data.add(usuario);
+            // System.out.println(""+p.getNombre().toString());
+            return p.getAdmin();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e.getMessage());
+        }
+
+
+        return "";
+    }
     public int tipoPago(String tipoPago) {
         ResultSet rs = null;
         int id=0;

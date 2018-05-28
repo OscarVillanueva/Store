@@ -16,10 +16,12 @@ import java.util.logging.Logger;
  */
 public class MySQL {
     private static Connection conn = null;
-    private static String hostname   = "localhost";
+    //private static String hostname   = "localhost";
+    private static String hostname   = "192.168.1.72";
     private static String dbname = "appStore";
     private static String dbuser = "root";
-    private static String dbpass = "TopicosAvanzados";
+    //private static String dbpass = "TopicosAvanzados";
+    private static String dbpass = "root";
     
 
     public static void Connect() {

@@ -148,7 +148,7 @@ public class Detalles implements Initializable {
         isLog = log;
         labelTitulo.setText(nombre);
         txtNombre.setText(nombre);
-        if(url==null) {
+        if(url==null||url.size()==0) {
             cont = -1;
             bandera = false;
         }

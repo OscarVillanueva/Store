@@ -309,10 +309,10 @@ public class AppDao {
             st.setInt(11,categoria);
             int pais = getPais(app.getPais());
             st.setInt(12,pais);
-            insertIdiomaApp(app.getIdApp(),getIdiomas(app.getIdioma()));
+            insertIdiomaApp(app.getIdApp(),getIdiomas(app.getIdioma()));*/
             insertCaps(caps);
             idCap = getCapsid(caps);
-            insertAppCapturas(idCap,app.getIdApp());*/
+            insertAppCapturas(idCap,app.getIdApp());
             st.setInt(10,Integer.parseInt(app.getVendedor()));
             st.setInt(11,Integer.parseInt(app.getCategoria()));
             st.setInt(12,Integer.parseInt(app.getPais()));
@@ -448,7 +448,7 @@ public class AppDao {
                 + " values (?, ?)";
         try {
             for(String aux : caps) {
-                PreparedStatement st = connection.prepareStatement(query);
+                PreparedStatement st = connection.prepareStatement(query,Statement.RETURN_GENERATED_KEYS);
                 st.setInt(1, 0);
                 st.setString(2, aux);
                 st.execute();

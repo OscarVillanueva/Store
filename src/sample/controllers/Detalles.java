@@ -16,7 +16,9 @@ import javafx.stage.FileChooser;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
 import org.controlsfx.control.Rating;
+import sample.App;
 import sample.MySQL;
+import sample.dao.AppDao;
 
 
 import java.io.File;
@@ -38,6 +40,8 @@ public class Detalles implements Initializable {
     private boolean isLog;
     private boolean bandera;
     private String idUser;
+    private String icono = "/src";
+    private ArrayList<String> caps;
 
     @FXML
     ImageView imageView;
@@ -71,7 +75,7 @@ public class Detalles implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        caps = new ArrayList<>();
         scroll.addEventFilter(ScrollEvent.SCROLL,new EventHandler<ScrollEvent>() {
             @Override
             public void handle(ScrollEvent event) {
@@ -97,15 +101,17 @@ public class Detalles implements Initializable {
         btnComprar.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if(isLog){
-                    insertIntoCarrito();
-                    btnComprar.setText("App en el carrito");
-                    btnComprar.setDisable(true);
+                if((guia.equals("2")||guia.equals("1"))&&btnComprar.getText().equals("Cambiar")){
+                    icono = "/src";
+                    String file = chooser();
+                    icono = icono + file;
+                    imageView.setImage(new Image(file));
                 }
                 else{
-                    if(guia.equals("1")) {
-                        String file = chooser();
-                        imageView.setImage(new Image(file));
+                    if(isLog) {
+                        insertIntoCarrito();
+                        btnComprar.setText("App en el carrito");
+                        btnComprar.setDisable(true);
                     }
                     else{
                         ocurio("No puedes comprar hasta que te inicies sesion");
@@ -142,7 +148,7 @@ public class Detalles implements Initializable {
         isLog = log;
         labelTitulo.setText(nombre);
         txtNombre.setText(nombre);
-        if(urls==null) {
+        if(url==null) {
             cont = -1;
             bandera = false;
         }
@@ -215,6 +221,7 @@ public class Detalles implements Initializable {
 
         Optional<ButtonType> result = alert.showAndWait();
         if (result.get() == ButtonType.OK){
+            App app = new App();
             String descrip = txtADesc.getText();
             double prom = ratingBar.getRating();
             String cat = txtCategoria.getText();
@@ -226,9 +233,24 @@ public class Detalles implements Initializable {
             String carac = txtCaract.getText();
             String price = txtPrecio.getText();
             String lang = txtIdioma.getText();
+            String nombre = txtNombre.getText();
+            app.setNombre(nombre);
+            app.setIcono(icono);
+            app.setDescripcion(descrip);
+            app.setPromedio(prom);
+            app.setCategoria(cat);
+            app.setVendedor(devep);
+            app.setTamanio(Double.parseDouble(tam));
+            app.setPais(from);
+            app.setCompatibilidad(comp);
+            app.setVersion(vers);
+            app.setCaracteristicas(carac);
+            app.setPrecio(Double.parseDouble(price));
+            app.setIdioma(lang);
             //Aqui va la consulta update
-            if(bandera) {
-                //consulata insert
+            if(!bandera) {
+                AppDao appDao = new AppDao(MySQL.getConnection());
+                appDao.insertApp(app,caps);
             }
             else{
                 //consulta update
@@ -301,6 +323,7 @@ public class Detalles implements Initializable {
             errorNotification();
         }
         String temp = "/sample/recursos/"+selectFile.getName();
+        caps.add("/src/"+temp);
         return temp;
     }
 

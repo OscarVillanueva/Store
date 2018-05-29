@@ -18,6 +18,7 @@ import sample.dao.UsuarioDAO;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Date;
+import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
@@ -91,6 +92,23 @@ public class ControllerCuenta implements Initializable {
                     }
                     parent = loader.getRoot();
                     setContent();
+                }
+                else {
+                    if(event.getSource() == btnCrear){
+                        loader = new FXMLLoader();
+                        loader.setLocation(getClass().getResource("../fxml/detalles.fxml"));
+                        try {
+                            loader.load();
+                        } catch (Exception e) {
+                            System.out.println(e);
+                        }
+                        Detalles detalles = loader.getController();
+                        detalles.setInit("/sample/recursos/add.png","2",0,"","","",
+                        "","","","","","","","","",null,true,
+                                "");
+                        parent = loader.getRoot();
+                        setContent();
+                    }
                 }
             }
 

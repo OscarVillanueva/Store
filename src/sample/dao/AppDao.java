@@ -3,9 +3,7 @@ package sample.dao;
 import sample.App;
 import sample.Cuenta;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 
 public class AppDao {
@@ -289,6 +287,268 @@ public class AppDao {
         return apps;
     }
 
+    public void insertApp(App app,ArrayList<String> caps){
+        ResultSet rs;
+        ArrayList<Integer> idCap;
+        String query = "insert into App "
+                + " values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+            st.setInt(1, 0);
+            st.setString(2, app.getIcono());
+            st.setString(3, app.getNombre());
+            st.setString(4, app.getDescripcion());
+            st.setDouble(5, app.getPrecio());
+            st.setString(6, app.getCaracteristicas());
+            st.setString(7, app.getVersion());
+            st.setDouble(8, app.getTamanio());
+            st.setString(9, app.getCompatibilidad());
+            /*int vendedor = getVendedor(app.getVendedor());
+            st.setInt(10, vendedor);
+            int categoria = getCategoria(app.getCategoria());
+            st.setInt(11,categoria);
+            int pais = getPais(app.getPais());
+            st.setInt(12,pais);
+            insertIdiomaApp(app.getIdApp(),getIdiomas(app.getIdioma()));
+            insertCaps(caps);
+            idCap = getCapsid(caps);
+            insertAppCapturas(idCap,app.getIdApp());*/
+            st.setInt(10,Integer.parseInt(app.getVendedor()));
+            st.setInt(11,Integer.parseInt(app.getCategoria()));
+            st.setInt(12,Integer.parseInt(app.getPais()));
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public int getVendedor(String vendedor){
+        int vendeor = 0;
+        ResultSet rs;
+        try{
+            String query = "select idVendedor from Vendedor where nombre= "+"'"+vendedor+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while(rs.next()){
+                vendeor = rs.getInt("idVendedor");
+            }
+        }
+        catch (Exception e){
+
+        }
+
+        if(vendeor==0){
+            insertVendedor(vendedor);
+            vendeor = getVendedor(vendedor);
+        }
+        return vendeor;
+    }
+
+
+
+    public void insertVendedor(String vendedor){
+        ResultSet rs;
+        String query = "insert into Vendedores "
+                + " values (?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+
+            st.setString(2, vendedor);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void insertIdiomaApp(int idApp, int idIdioma){
+        ResultSet rs;
+        String query = "insert into idiomaApp "
+                + " values (?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+            st.setInt(1, idApp);
+            st.setInt(2, idIdioma);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    public int getCategoria(String categoria){
+        int vendeor = 0;
+        ResultSet rs;
+        try{
+            String query = "select idCategoria from Categoria where nombre= "+"'"+categoria+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while(rs.next()){
+                vendeor = rs.getInt("idCategoria");
+            }
+        }
+        catch (Exception e){
+
+        }
+
+        if(vendeor==0){
+            insertCategoria(categoria);
+            vendeor = getCategoria(categoria);
+        }
+        return vendeor;
+    }
+
+
+
+
+
+    public void insertCategoria(String categoria){
+        ResultSet rs;
+        String query = "insert into Categoria "
+                + " values (?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+            st.setInt(1, 0);
+            st.setString(2, categoria);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public int getPais(String pais){
+        int vendeor = 0;
+        ResultSet rs;
+        try{
+            String query = "select idPais from Pais where nombre= "+"'"+pais+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while(rs.next()){
+                vendeor = rs.getInt("idPais");
+            }
+        }
+        catch (Exception e){
+
+        }
+
+        if(vendeor==0){
+            insertPais(pais);
+            vendeor = getPais(pais);
+        }
+        return vendeor;
+    }
+
+
+    public void insertCaps(ArrayList<String> caps){
+        ResultSet rs;
+        String query = "insert into Capturas "
+                + " values (?, ?)";
+        try {
+            for(String aux : caps) {
+                PreparedStatement st = connection.prepareStatement(query);
+                st.setInt(1, 0);
+                st.setString(2, aux);
+                st.execute();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public ArrayList<Integer> getCapsid(ArrayList<String> caps){
+        int cap = 0;
+        ArrayList<Integer> ids = new ArrayList<>();
+        ResultSet rs;
+        try{
+            for(String aux : caps) {
+                String query = "select idCaptura from Capturas where imagen= " + "'" + aux + "'";
+                Statement st = connection.createStatement();
+                //System.out.println(query);
+                rs = st.executeQuery(query);
+                while (rs.next()) {
+                    cap = rs.getInt("idCaptura");
+                    ids.add(cap);
+                }
+            }
+        }
+        catch (Exception e){
+
+        }
+        return ids;
+    }
+
+
+    public void insertAppCapturas(ArrayList<Integer> caps,int idApp){
+        ResultSet rs;
+        String query = "insert into appCaturas "
+                + " values (?, ?)";
+        try {
+            for(int i : caps) {
+                PreparedStatement st = connection.prepareStatement(query);
+                st.setInt(1, idApp);
+                st.setInt(2, i);
+                st.execute();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void insertPais(String pais){
+        ResultSet rs;
+        String query = "insert into Pais "
+                + " values (?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+            st.setInt(1, 0);
+            st.setString(2, pais);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public int getIdiomas(String idioma){
+        int vendeor = 0;
+        ResultSet rs;
+        try{
+            String query = "select idIdioma from Idioma where nombre= "+"'"+idioma+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while(rs.next()){
+                vendeor = rs.getInt("idIdioma");
+            }
+        }
+        catch (Exception e){
+
+        }
+
+        if(vendeor==0){
+            insertIdioma(idioma);
+            vendeor = getIdiomas(idioma);
+        }
+        return vendeor;
+    }
+
+
+
+    public void insertIdioma(String vendedor){
+        ResultSet rs;
+        String query = "insert into idioma "
+                + " values (?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+            st.setInt(1, 0);
+            st.setString(2, vendedor);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     public String getIdioma(String app){
         String idioma = "";

@@ -103,6 +103,18 @@
                         <MaterialDesignIconView glyphName="PLAYLIST_PLUS" glyphSize="20" fill="#009cfc"/>
                     </graphic>
                 </Button>
+
+                <Separator orientation="VERTICAL"/>
+
+                <Button fx:id="btnCarrito" text="Carrito" onAction="#carrito"
+                        contentDisplay="TOP" alignment="CENTER">
+                    <tooltip>
+                        <Tooltip text="Registrarme"/>
+                    </tooltip>
+                    <graphic>
+                        <MaterialDesignIconView glyphName="SHOPPING" glyphSize="20" fill="#009cfc"/>
+                    </graphic>
+                </Button>
             </ToolBar>
         </HBox>
     </top>

@@ -21,13 +21,18 @@ import javafx.scene.paint.Paint;
 import javafx.stage.Modality;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
+import sample.App;
+import sample.InfoUser;
+import sample.Persistencia;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class ModeloCategoria implements Initializable {
     private Popup popup;
-    private String id;
+    private App app;
+    private InfoUser infoUser;
 
     @FXML
     ImageView imageView;
@@ -40,6 +45,7 @@ public class ModeloCategoria implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        setUser();
         labelNombre.setPadding(new Insets(10,0,0,0));
     }
 
@@ -53,7 +59,18 @@ public class ModeloCategoria implements Initializable {
 
         }
         Detalles detallar = loader.getController();
-        //detallar.setInit(); con los datos de la consulta
+        if(infoUser != null) {
+            detallar.setInit(app.getIcono(),infoUser.getTipo(), app.getPromedio(), app.getVendedor(), String.valueOf(app.getIdApp()),
+                    app.getNombre(), app.getCompatibilidad(), String.valueOf(app.getPrecio()), app.getCategoria(),
+                    String.valueOf(app.getTamanio()), app.getPais(), app.getVersion(), app.getIdioma(), app.getDescripcion(),
+                    app.getCaracteristicas(), app.getCapturas(), infoUser.isLog(),String.valueOf(infoUser.getIdUser()));
+        }
+        else {
+            detallar.setInit(app.getIcono(),"0", app.getPromedio(), app.getVendedor(), String.valueOf(app.getIdApp()),
+                    app.getNombre(), app.getCompatibilidad(), String.valueOf(app.getPrecio()), app.getCategoria(),
+                    String.valueOf(app.getTamanio()), app.getPais(), app.getVersion(), app.getIdioma(), app.getDescripcion(),
+                    app.getCaracteristicas(), app.getCapturas(), false,"");
+        }
         Parent root = loader.getRoot();
         /*Scene scene = new Scene(root, 300, 275);
         scene.getStylesheets().add(getClass().getResource("/sample/css/estilos.css").toExternalForm());
@@ -69,6 +86,7 @@ public class ModeloCategoria implements Initializable {
         stage.setOpacity(0.5);
 
         Button button = new Button();
+        button.getStyleClass().add("closeButton");
         MaterialDesignIconView iconView = new MaterialDesignIconView(MaterialDesignIcon.CLOSE_CIRCLE);
         iconView.setFill(Color.RED);
         iconView.setSize("40");
@@ -86,7 +104,7 @@ public class ModeloCategoria implements Initializable {
         popup = new Popup();
         popup.getContent().add(root);
         popup.getContent().add(button);
-        //popup.setHeight(800);
+        //popup.setHeight(00);
         popup.show(stage);
     }
 
@@ -94,12 +112,28 @@ public class ModeloCategoria implements Initializable {
         Image image = new Image(url);
         imageView.setImage(image);
         labelNombre.setText(name);
-        this.id = id;
     }
+
+    public void setApp(App datos){
+        app = datos;
+    }
+
 
     private void closeStage(){
         Stage stage = (Stage)imageView.getScene().getWindow();
         stage.close();
+    }
+
+    private void setUser(){
+        Persistencia persistencia = new Persistencia();
+        try {
+            infoUser = persistencia.checarUsuario();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
     }
 }
 

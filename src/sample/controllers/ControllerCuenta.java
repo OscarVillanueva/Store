@@ -7,17 +7,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import sample.Cuenta;
-import sample.FormaPago;
-import sample.MySQL;
-import sample.Usuario;
+import sample.*;
 import sample.dao.FormaPagoDAO;
 import sample.dao.UsuarioDAO;
 
@@ -52,8 +46,9 @@ public class ControllerCuenta implements Initializable {
         btnEditar.setOnAction(handler);
         btnOk.setOnAction(handler);
         btnPassword.setOnAction(handler);
-
+        btnEditar.setOnAction(handler);
     }
+
 
     private EventHandler handler = new EventHandler() {
         @Override
@@ -75,7 +70,28 @@ public class ControllerCuenta implements Initializable {
                 forma.setIdUsuario(id);
                 forma.setTipoPago(tip);
                 formaDAO.update(forma);
+                confirmacion();
 
+            }
+            else{
+                if(event.getSource() == btnEditar){
+                    Persistencia persistencia = new Persistencia();
+                    try {
+                        persistencia.emptyFile("data.dat");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    confirmacion();
+                    loader = new FXMLLoader();
+                    loader.setLocation(getClass().getResource("../fxml/home.fxml"));
+                    try {
+                        loader.load();
+                    } catch (Exception e) {
+                        System.out.println(e);
+                    }
+                    parent = loader.getRoot();
+                    setContent();
+                }
             }
 
         }
@@ -96,7 +112,7 @@ public class ControllerCuenta implements Initializable {
 
             admin = "1";
             btnCrear.setVisible(true);
-            btnEditar.setVisible(true);
+            //btnEditar.setVisible(true);
         }
         if (desc.equals("Tarjeta de regalo")) {
             rbRegalo.setSelected(true);
@@ -141,6 +157,17 @@ public class ControllerCuenta implements Initializable {
 
     private void setContent() {
         //index.getChildren().add(parent);
+        index.getChildren().removeAll();
+        index.getChildren().clear();
         index.getChildren().add(parent);
+    }
+
+
+    private void confirmacion(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Actualización");
+        alert.setHeaderText("Exito");
+        alert.setContentText("Operación relizada con exito");
+        alert.showAndWait();
     }
 }

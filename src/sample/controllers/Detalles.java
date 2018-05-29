@@ -13,14 +13,18 @@ import javafx.scene.input.ScrollEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.FileChooser;
+import javafx.stage.Popup;
 import javafx.stage.Stage;
 import org.controlsfx.control.Rating;
+import sample.MySQL;
 
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -33,6 +37,7 @@ public class Detalles implements Initializable {
     private int cont;
     private boolean isLog;
     private boolean bandera;
+    private String idUser;
 
     @FXML
     ImageView imageView;
@@ -50,7 +55,7 @@ public class Detalles implements Initializable {
     Button btnCambiar,btnValorar,btnGuardar,btnEdit,btnDelete,btnComprar,btnAdd,btnElim,btnGuardarVal;
 
     @FXML
-    Label labelTitulo;
+    Label labelTitulo,labelPromedio;
 
     @FXML
     TextArea txtADesc,txtAreaUser,txtCaract;
@@ -76,9 +81,9 @@ public class Detalles implements Initializable {
             }
         });
 
-        initComponents();
+        /*initComponents();
         setType();
-        getRootPath();
+        getRootPath();*/
     }
 
     private void initComponents(){
@@ -92,26 +97,36 @@ public class Detalles implements Initializable {
         btnComprar.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if(guia.equals("user")){
-                    //Salta un pop confirmando la compra
+                if(isLog){
+                    insertIntoCarrito();
+                    btnComprar.setText("App en el carrito");
+                    btnComprar.setDisable(true);
                 }
                 else{
-                    String file = chooser();
-                    imageView.setImage(new Image(file));
+                    if(guia.equals("1")) {
+                        String file = chooser();
+                        imageView.setImage(new Image(file));
+                    }
+                    else{
+                        ocurio("No puedes comprar hasta que te inicies sesion");
+                    }
                 }
             }
         });
 
     }
 
-    public void setInit(String behaivior, double pop,String seller, String id, String nombre,
+    public void setInit(String icono,String behaivior, double pop,String seller, String id, String nombre,
                         String compat,String price, String category, String tam,String from,
-                        String ver,String lang,String desc,String others,ArrayList url,boolean log){
+                        String ver,String lang,String desc,String others,ArrayList url,boolean log,String idUser){
+        this.idUser = idUser;
         this.id = id;
+        imageView.setImage(new Image((icono)));
         guia = behaivior;
         txtVendedor.setText(seller);
         txtComp.setText(compat);
         txtPrecio.setText(price);
+        btnComprar.setText(price);
         txtCategoria.setText(category);
         txtTamanio.setText(tam);
         txtPais.setText(from);
@@ -119,10 +134,11 @@ public class Detalles implements Initializable {
         txtIdioma.setText(lang);
         txtADesc.setText(desc);
         txtCaract.setText(others);
-        btnCambiar.setVisible(true);
-        btnAdd.setVisible(true);
-        btnElim.setVisible(true);
+        btnCambiar.setVisible(false);
+        btnAdd.setVisible(false);
+        btnElim.setVisible(false);
         ratingBar.setRating(pop);
+        labelPromedio.setText(String.valueOf(pop));
         isLog = log;
         labelTitulo.setText(nombre);
         txtNombre.setText(nombre);
@@ -143,13 +159,14 @@ public class Detalles implements Initializable {
 
     private void setType(){
         switch (guia){
-            case "admin":
+            case "1":
                 isVisible(true);
+                btnValorar.setVisible(false);
                 break;
-            case "user":
+            case "0":
                 isVisible(false);
                 break;
-            case "add":
+            case "2":
                 isVisible(true);
                 activate();
                 break;
@@ -159,6 +176,9 @@ public class Detalles implements Initializable {
     private void isVisible(boolean bandera){
         btnDelete.setVisible(bandera);
         btnEdit.setVisible(bandera);
+        btnCambiar.setVisible(bandera);
+        btnAdd.setVisible(bandera);
+        btnElim.setVisible(bandera);
     }
 
     @FXML
@@ -391,6 +411,24 @@ public class Detalles implements Initializable {
         alert.setHeaderText("Esto es vergonzoso");
         alert.setContentText(mensaje);
         alert.showAndWait();
+    }
+
+    private void insertIntoCarrito(){
+        Connection conn = MySQL.getConnection();
+        try {
+            String query = "insert into Carrito "
+                    + " values (?, ?)";
+            PreparedStatement st = conn.prepareStatement(query);
+            st.setString(1,idUser);
+            st.setString(2,id);
+
+
+            st.execute();
+            confimation();
+            //data.add(usuario);
+        } catch (Exception e) {
+            ocurio("Ocurrio un error");
+        }
     }
 }
 

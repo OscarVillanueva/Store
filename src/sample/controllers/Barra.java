@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Alert;
+import javafx.scene.control.ChoiceDialog;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.layout.BorderPane;
 import sample.Cuenta;
@@ -15,6 +16,11 @@ import sample.dao.CuentaDAO;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
@@ -51,8 +57,30 @@ public class Barra implements Initializable {
     }
 
     @FXML
+    public void carrito(){
+        setUser();
+        if(infoUser!=null) {
+            if (infoUser.isLog()) {
+                loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("/sample/fxml/compras.fxml"));
+                try {
+                    loader.load();
+                } catch (Exception e) {
+                    System.out.println(e);
+                }
+                Compras compras = loader.getController();
+                compras.setId("Carrito",String.valueOf(infoUser.getIdUser()));
+                parent = loader.getRoot();
+                setContent();
+            }
+        }
+        else
+            ocurio("Debes estar loggeado para ver las compras");
+    }
+
+    @FXML
     public void categorias(){
-        String temp = pregunta("Categoria a buscar");
+        String temp = buscarCat();
         boolean isTemp = !temp.trim().isEmpty() || temp.isEmpty() == false;
         if(isTemp) {
             loader = new FXMLLoader();
@@ -76,16 +104,15 @@ public class Barra implements Initializable {
         String temp = pregunta("App a buscar");
         boolean isTemp = !temp.trim().isEmpty() || temp.isEmpty() == false;
         if(isTemp){
-            //Realizamos la consulta que me regrese la info de la app para mandar llamar el detalle
             loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/fxml/detalles.fxml"));
+            loader.setLocation(getClass().getResource("../fxml/categoria.fxml"));
             try {
                 loader.load();
             } catch (Exception e) {
                 System.out.println(e);
             }
-            Detalles detalles = loader.getController();
-            //detalles.setInit(); aqui mando todos los datos de la app a buscar
+            Categoria categoria = loader.getController();
+            categoria.especificApp(temp);
             parent = loader.getRoot();
             setContent();
         }
@@ -103,7 +130,7 @@ public class Barra implements Initializable {
             System.out.println(e);
         }
         Categoria categoria = loader.getController();
-        categoria.setId("Top Apps");
+        categoria.setId("Top");
         parent = loader.getRoot();
         setContent();
     }
@@ -121,7 +148,7 @@ public class Barra implements Initializable {
                     System.out.println(e);
                 }
                 Compras compras = loader.getController();
-                compras.setId(String.valueOf(infoUser.getIdUser()));
+                compras.setId("Compras",String.valueOf(infoUser.getIdUser()));
                 parent = loader.getRoot();
                 setContent();
             }
@@ -232,5 +259,39 @@ public class Barra implements Initializable {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    private List<String> opciones(){
+        Connection connection = MySQL.getConnection();
+        List<String> choices = new ArrayList<>();
+        ResultSet rs;
+        try{
+            String query = "select nombre from Categoria";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while(rs.next()){
+                choices.add(rs.getString("nombre"));
+            }
+        }
+        catch (Exception e){
+
+        }
+        return choices;
+    }
+
+    private String buscarCat(){
+        List<String> list = opciones();
+        ChoiceDialog<String> dialog = new ChoiceDialog<>(list.get(0), list);
+        dialog.setTitle("Buscar");
+        dialog.setHeaderText("Categorias");
+        dialog.setContentText("Elige la categoria que desees buscar: ");
+
+// Traditional way to get the response value.
+        Optional<String> result = dialog.showAndWait();
+        if (result.isPresent()){
+            return result.get();
+        }
+        return result.get();
     }
 }

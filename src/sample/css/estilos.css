@@ -244,6 +244,10 @@ Rating{
     -fx-padding: 0 0 0 180;
 }
 
+.closeButton:hover{
+    -fx-opacity: 0.2;
+}
+
 
 
 

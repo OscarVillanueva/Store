@@ -10,6 +10,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        Persistencia persistencia = new Persistencia();
+        persistencia.emptyFile("data.dat");
         Parent root = FXMLLoader.load(getClass().getResource("/sample/fxml/barra.fxml"));
         Scene scene = new Scene(root, 300, 275);
         scene.getStylesheets().add(getClass().getResource("/sample/css/estilos.css").toExternalForm());

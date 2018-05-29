@@ -8,19 +8,27 @@
 
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
-<HBox xmlns="http://javafx.com/javafx"
+<GridPane xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="sample.controllers.ModeloCompras"
-      prefHeight="50.0" prefWidth="1050.0" spacing="200" alignment="TOP_CENTER">
-    <ImageView fitHeight="59" fitWidth="66" fx:id="imageView">
+      fx:controller="sample.controllers.ModeloCompras" fx:id="modeloCompras"
+      prefHeight="50.0" prefWidth="1050.0" alignment="TOP_CENTER" hgap="200">
+    <ImageView fitHeight="59" fitWidth="66" fx:id="imageView"
+               GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="CENTER">
         <image>
             <Image url="/sample/recursos/iTunesArtwork@2x.png"/>
         </image>
     </ImageView>
 
-    <Label text="Pack de stikers" styleClass="informacion" fx:id="labelNombre"/>
+    <Label text="Pack de stikers" styleClass="informacion" fx:id="labelNombre" wrapText="true" maxWidth="70"
+           GridPane.rowIndex="0" GridPane.columnIndex="1" GridPane.halignment="CENTER"/>
 
-    <Label text="Fecha" styleClass="informacion" fx:id="labelFecha"/>
+    <Label text="Fecha" styleClass="informacion" fx:id="labelFecha"
+           GridPane.rowIndex="0" GridPane.columnIndex="2" GridPane.halignment="CENTER"/>
 
-    <Button text="Ver" styleClass="bntAcerca" fx:id="btnVer" onAction="#detallar"/>
-</HBox>
+    <Button text="Eliminar" styleClass="bntAcerca" fx:id="btnBaja" visible="false"
+            onAction="#eliminarCarrito"
+           GridPane.rowIndex="0" GridPane.columnIndex="2" GridPane.halignment="CENTER"/>
+
+    <Button text="Ver" styleClass="bntAcerca" fx:id="btnVer" onAction="#detallar"
+            GridPane.rowIndex="0" GridPane.columnIndex="3" GridPane.halignment="CENTER"/>
+</GridPane>

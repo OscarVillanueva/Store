@@ -11,5 +11,5 @@
       fx:controller="sample.controllers.Compras"
       prefHeight="600.0" prefWidth="100.0"
       alignment="TOP_CENTER" spacing="15" fx:id="vboxCompras">
-    <Label text="Compras" styleClass="title"/>
+    <Label fx:id="labelTitulo" text="Compras" styleClass="title"/>
 </VBox>

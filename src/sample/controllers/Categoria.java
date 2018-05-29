@@ -7,6 +7,7 @@ import javafx.geometry.HPos;
 import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Separator;
@@ -67,6 +68,7 @@ public class Categoria implements Initializable {
                     //se llenan con los datos que tengan los arreglos
                     //modeloCategoria.setData("/sample/recursos/abacus.png", "Ferrari", "");
                     modeloCategoria.setData(detaApp.getIcono(), detaApp.getNombre(), String.valueOf(detaApp.getIdApp()));
+                    modeloCategoria.setApp(detaApp);
                     Parent app = loader.getRoot();
                     GridPane.setHalignment(app, HPos.CENTER);
                     tableApps.add(app, i, j);
@@ -91,11 +93,36 @@ public class Categoria implements Initializable {
             case "Algunas Apps":
                 apps = appDao.getAll();
                 break;
+            case "Top":
+                apps = appDao.getTopApp();
+                break;
             default:
                 apps = appDao.getCategoryApp(id);
                 break;
         }
         labelTitulo.setText(id);
         initCategoria(apps);
+    }
+
+    public void especificApp(String name){
+        ArrayList<App> apps = new ArrayList<>();
+        AppDao appDao = new AppDao(MySQL.getConnection());
+        apps = appDao.getEspecificApp(name);
+        if(apps.size()>0) {
+            labelTitulo.setText(name);
+        }
+        else{
+            newOpciones();
+            apps = appDao.getAll();
+        }
+        initCategoria(apps);
+    }
+
+    private void newOpciones(){
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Alerta");
+        alert.setHeaderText("No hay aplicaciones con el nombre que buscaste");
+        alert.setContentText("Pero te mostraremos algunas otras");
+        alert.showAndWait();
     }
 }

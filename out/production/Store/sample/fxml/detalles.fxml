@@ -25,7 +25,7 @@
         <VBox alignment="CENTER">
             <StackPane alignment="CENTER">
                 <Label alignment="CENTER" styleClass="title,resp" BorderPane.alignment="CENTER"
-                       textAlignment="CENTER" text="Pack de stickers" fx:id="labelTitulo"/>
+                       textAlignment="CENTER" text="Pack de stickers" fx:id="labelTitulo" wrapText="true"/>
                 <TextField fx:id="txtNombre" text="Pack de stickers" maxWidth="200" visible="false"/>
             </StackPane>
             <HBox alignment="CENTER">
@@ -116,7 +116,8 @@
                             GridPane.columnIndex="2" GridPane.rowIndex="7" partialRating="true"
                             orientation="HORIZONTAL" GridPane.halignment="CENTER"/>
 
-                    <Label text="4.2" GridPane.columnIndex="2" GridPane.rowIndex="8" GridPane.halignment="CENTER"/>
+                    <Label text="4.2" GridPane.columnIndex="2" fx:id="labelPromedio"
+                           GridPane.rowIndex="8" GridPane.halignment="CENTER"/>
 
                     <Label text="Información" GridPane.columnIndex="0" GridPane.rowIndex="9" GridPane.columnSpan="3"
                            GridPane.halignment="CENTER" styleClass="funcion"/>
@@ -175,7 +176,7 @@
 
                     <TextArea fx:id="txtCaract"
                               text="Entretenimiento"  GridPane.halignment="LEFT" editable="false" maxWidth="200"
-                              maxHeight="600"
+                              minHeight="100" wrapText="true"
                               GridPane.columnIndex="0" GridPane.rowIndex="15" />
 
                     <TextField fx:id="txtPrecio" text="\$80" GridPane.halignment="CENTER" alignment="CENTER"  maxWidth="200" editable="false"

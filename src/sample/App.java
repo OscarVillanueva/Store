@@ -1,5 +1,7 @@
 package sample;
 
+import java.util.ArrayList;
+
 public class App {
     private int idApp;
     private String icono;
@@ -14,6 +16,9 @@ public class App {
     private String categoria;
     private String pais;
     private String idioma;
+    private double promedio;
+    private ArrayList<String> capturas;
+    private String fecha = "";
 
     public int getIdApp() {
         return idApp;
@@ -117,5 +122,29 @@ public class App {
 
     public void setIdioma(String idioma) {
         this.idioma = idioma;
+    }
+
+    public double getPromedio() {
+        return promedio;
+    }
+
+    public void setPromedio(double promedio) {
+        this.promedio = promedio;
+    }
+
+    public ArrayList<String> getCapturas() {
+        return capturas;
+    }
+
+    public void setCapturas(ArrayList<String> capturas) {
+        this.capturas = capturas;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
     }
 }

@@ -18,6 +18,7 @@
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ComboBox?>
 <BorderPane fx:controller="sample.controllers.Detalles"
             xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
             prefWidth="1400" prefHeight="600" >
@@ -153,9 +154,16 @@
                                text="Entretenimiento"  alignment="TOP_LEFT" GridPane.halignment="LEFT" editable="false" maxWidth="200"
                                GridPane.columnIndex="0" GridPane.rowIndex="11" />
 
+                    <ComboBox fx:id="comboCategoria" visible="false"
+                              GridPane.halignment="LEFT" maxWidth="200"
+                              GridPane.columnIndex="0" GridPane.rowIndex="11"/>
+
                     <TextField fx:id="txtVendedor" text="Yo" GridPane.halignment="RIGHT" alignment="CENTER"  maxWidth="200" editable="false"
                                GridPane.columnIndex="1" GridPane.rowIndex="11"
                     />
+
+                    <ComboBox fx:id="comboVendedor" GridPane.halignment="RIGHT" maxWidth="200" visible="false"
+                              GridPane.columnIndex="1" GridPane.rowIndex="11"/>
 
                     <TextField fx:id="txtTamanio"
                                text="80 MB" GridPane.halignment="RIGHT"  alignment="CENTER"  editable="false" maxWidth="200"
@@ -164,6 +172,10 @@
                     <TextField fx:id="txtPais"
                                text="Entretenimiento"  alignment="CENTER" GridPane.halignment="LEFT" editable="false" maxWidth="200"
                                GridPane.columnIndex="0" GridPane.rowIndex="13" />
+
+                    <ComboBox fx:id="comboPais"
+                              GridPane.halignment="LEFT" visible="false" maxWidth="200"
+                              GridPane.columnIndex="0" GridPane.rowIndex="13" />
 
                     <TextField fx:id="txtComp" text="Yo" alignment="CENTER"  maxWidth="200" editable="false"
                                GridPane.columnIndex="1" GridPane.rowIndex="13"
@@ -187,6 +199,10 @@
                             fx:id="txtIdioma"
                             text="Español" GridPane.halignment="RIGHT"  alignment="CENTER"  editable="false" maxWidth="200"
                             GridPane.columnIndex="2" GridPane.rowIndex="15" />
+
+                    <ComboBox fx:id="comboIdioma"
+                              GridPane.halignment="RIGHT"  visible="false" maxWidth="200"
+                              GridPane.columnIndex="2" GridPane.rowIndex="15"/>
 
                     <Button fx:id="btnGuardar" maxWidth="200" styleClass="compra" visible="false"
                             text="Guardar" textAlignment="CENTER" GridPane.halignment="CENTER"

@@ -287,8 +287,9 @@ public class AppDao {
         return apps;
     }
 
-    public void insertApp(App app,ArrayList<String> caps){
+    public void insertApp(App app){
         ResultSet rs;
+        int idApp;
         ArrayList<Integer> idCap;
         String query = "insert into App "
                 + " values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
@@ -310,13 +311,15 @@ public class AppDao {
             int pais = getPais(app.getPais());
             st.setInt(12,pais);
             insertIdiomaApp(app.getIdApp(),getIdiomas(app.getIdioma()));*/
-            insertCaps(caps);
-            idCap = getCapsid(caps);
-            insertAppCapturas(idCap,app.getIdApp());
+            insertCaps(app.getCapturas());
+            idCap = getCapsid(app.getCapturas());
             st.setInt(10,Integer.parseInt(app.getVendedor()));
             st.setInt(11,Integer.parseInt(app.getCategoria()));
             st.setInt(12,Integer.parseInt(app.getPais()));
             st.execute();
+            idApp = getidApp(app.getNombre());
+            insertAppCapturas(idCap,idApp);
+            insertIdiomaApp(idApp,Integer.parseInt(app.getIdioma()));
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -345,6 +348,38 @@ public class AppDao {
         return vendeor;
     }
 
+    public int getidApp(String vendedor){
+        int vendeor = 0;
+        ResultSet rs;
+        try{
+            String query = "select idApp from App where nombre= "+"'"+vendedor+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while(rs.next()){
+                vendeor = rs.getInt("idApp");
+            }
+        }
+        catch (Exception e) {
+
+        }
+        return vendeor;
+    }
+
+    public void insertIdiomaApp(int app, int idioma){
+        ResultSet rs;
+        String query = "insert into idiomaApp "
+                + " values (?, ?)";
+        try {
+            PreparedStatement st = connection.prepareStatement(query);
+            st.setInt(1,app);
+            st.setInt(2, idioma);
+            st.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 
     public void insertVendedor(String vendedor){
@@ -355,20 +390,6 @@ public class AppDao {
             PreparedStatement st = connection.prepareStatement(query);
 
             st.setString(2, vendedor);
-            st.execute();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void insertIdiomaApp(int idApp, int idIdioma){
-        ResultSet rs;
-        String query = "insert into idiomaApp "
-                + " values (?, ?)";
-        try {
-            PreparedStatement st = connection.prepareStatement(query);
-            st.setInt(1, idApp);
-            st.setInt(2, idIdioma);
             st.execute();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -444,13 +465,12 @@ public class AppDao {
 
     public void insertCaps(ArrayList<String> caps){
         ResultSet rs;
-        String query = "insert into Capturas "
-                + " values (?, ?)";
+        String query = "insert into Capturas (imagen) "
+                + " values (?)";
         try {
             for(String aux : caps) {
-                PreparedStatement st = connection.prepareStatement(query,Statement.RETURN_GENERATED_KEYS);
-                st.setInt(1, 0);
-                st.setString(2, aux);
+                PreparedStatement st = connection.prepareStatement(query);
+                st.setString(1, aux);
                 st.execute();
             }
         } catch (SQLException e) {
@@ -483,7 +503,7 @@ public class AppDao {
 
     public void insertAppCapturas(ArrayList<Integer> caps,int idApp){
         ResultSet rs;
-        String query = "insert into appCaturas "
+        String query = "insert into appCapturas "
                 + " values (?, ?)";
         try {
             for(int i : caps) {

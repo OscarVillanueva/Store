@@ -1,5 +1,7 @@
 package sample.controllers;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -13,8 +15,7 @@ import javafx.scene.input.ScrollEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.FileChooser;
-import javafx.stage.Popup;
-import javafx.stage.Stage;
+
 import org.controlsfx.control.Rating;
 import sample.App;
 import sample.MySQL;
@@ -27,6 +28,8 @@ import java.net.URL;
 import java.nio.file.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -39,9 +42,11 @@ public class Detalles implements Initializable {
     private int cont;
     private boolean isLog;
     private boolean bandera;
+    private boolean isCaptura;
     private String idUser;
     private String icono = "/src";
     private ArrayList<String> caps;
+    private int veces;
 
     @FXML
     ImageView imageView;
@@ -54,6 +59,9 @@ public class Detalles implements Initializable {
 
     @FXML
     TextField txtVersion, txtIdioma, txtNombre;
+
+    @FXML
+    ComboBox comboVendedor,comboCategoria,comboPais,comboIdioma;
 
     @FXML
     Button btnCambiar,btnValorar,btnGuardar,btnEdit,btnDelete,btnComprar,btnAdd,btnElim,btnGuardarVal;
@@ -76,6 +84,9 @@ public class Detalles implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         caps = new ArrayList<>();
+        caps.add("/src/sample/recursos/Aquarelo1.png");
+        veces = 0;
+        isCaptura =false;
         scroll.addEventFilter(ScrollEvent.SCROLL,new EventHandler<ScrollEvent>() {
             @Override
             public void handle(ScrollEvent event) {
@@ -103,9 +114,10 @@ public class Detalles implements Initializable {
             public void handle(ActionEvent event) {
                 if((guia.equals("2")||guia.equals("1"))&&btnComprar.getText().equals("Cambiar")){
                     icono = "/src";
+                    bandera = false;
                     String file = chooser();
                     icono = icono + file;
-                    imageView.setImage(new Image(file));
+                    //imageView.setImage(new Image(file));
                 }
                 else{
                     if(isLog) {
@@ -224,33 +236,34 @@ public class Detalles implements Initializable {
             App app = new App();
             String descrip = txtADesc.getText();
             double prom = ratingBar.getRating();
-            String cat = txtCategoria.getText();
-            String devep = txtVendedor.getText();
+            int cat = idCategoria(comboCategoria.getValue().toString());
+            int devep = idVendedor(comboVendedor.getValue().toString());
             String tam = txtTamanio.getText();
-            String from = txtPais.getText();
+            int from = idPais(comboPais.getValue().toString());
             String comp = txtComp.getText();
             String vers = txtVersion.getText();
             String carac = txtCaract.getText();
             String price = txtPrecio.getText();
-            String lang = txtIdioma.getText();
+            int lang = idIdioma(comboIdioma.getValue().toString());
             String nombre = txtNombre.getText();
             app.setNombre(nombre);
             app.setIcono(icono);
             app.setDescripcion(descrip);
             app.setPromedio(prom);
-            app.setCategoria(cat);
-            app.setVendedor(devep);
+            app.setCategoria(String.valueOf(cat));
+            app.setVendedor(String.valueOf(devep));
             app.setTamanio(Double.parseDouble(tam));
-            app.setPais(from);
+            app.setPais(String.valueOf(from));
             app.setCompatibilidad(comp);
             app.setVersion(vers);
             app.setCaracteristicas(carac);
             app.setPrecio(Double.parseDouble(price));
-            app.setIdioma(lang);
+            app.setIdioma(String.valueOf(lang));
+            app.setCapturas(caps);
             //Aqui va la consulta update
             if(!bandera) {
                 AppDao appDao = new AppDao(MySQL.getConnection());
-                appDao.insertApp(app,caps);
+                appDao.insertApp(app);
             }
             else{
                 //consulta update
@@ -263,14 +276,25 @@ public class Detalles implements Initializable {
     private void activate(){
         labelTitulo.setVisible(false);
         txtNombre.setVisible(true);
-        txtVendedor.setEditable(true);
+        txtVendedor.setVisible(false);
+        comboVendedor.setVisible(true);
+        comboVendedor.setItems(getVendedores());
+        comboVendedor.setValue("Apple Inc.");
         txtComp.setEditable(true);
         txtPrecio.setEditable(true);
-        txtCategoria.setEditable(true);
+        comboCategoria.setVisible(true);
+        comboCategoria.setItems(getCategorias());
+        comboCategoria.setValue("Juegos");
+        txtCategoria.setVisible(false);
         txtTamanio.setEditable(true);
-        txtPais.setEditable(true);
+        comboPais.setVisible(true);
+        comboPais.setItems(getPais());
+        comboPais.setValue("México");
         txtVersion.setEditable(true);
-        txtIdioma.setEditable(true);
+        comboIdioma.setVisible(true);
+        comboIdioma.setItems(getIdiomas());
+        comboIdioma.setValue("Todos los Idiomas");
+        txtIdioma.setVisible(false);
         txtADesc.setEditable(true);
         txtCaract.setEditable(true);
         btnCambiar.setVisible(true);
@@ -323,7 +347,20 @@ public class Detalles implements Initializable {
             errorNotification();
         }
         String temp = "/sample/recursos/"+selectFile.getName();
-        caps.add("/src/"+temp);
+        Image imageTemp = new Image(selectFile.toURI().toString());
+        if(!isCaptura){
+            imageView.setImage(imageTemp);
+        }
+        else {
+            imageCap.setImage(imageTemp);
+            if(veces == 0) {
+                veces = veces + 1;
+                caps = null;
+                caps = new ArrayList<>();
+                urls.add(selectFile.toURI().toString());
+            }
+            caps.add("/src" + temp);
+        }
         return temp;
     }
 
@@ -344,20 +381,21 @@ public class Detalles implements Initializable {
         while (!urls.get(i).equals(urls.get(cont)));
         String file = chooser();
         urls.set(i,file);
-        imageCap.setImage(new Image(file));
+        //imageCap.setImage(new Image(file));
     }
 
     @FXML
     public void addImage(){
+        bandera = true;
+        isCaptura = true;
         String file = chooser();
-        urls.add(file);
-        imageCap.setImage(new Image(file));
+        /*urls.add(file);
         if(bandera){
             cont = urls.size();
         }
         else{
             cont = cont + 1;
-        }
+        }*/
     }
 
     @FXML
@@ -452,6 +490,166 @@ public class Detalles implements Initializable {
         } catch (Exception e) {
             ocurio("Ocurrio un error");
         }
+    }
+
+    private ObservableList<String> getCategorias(){
+        Connection connection = MySQL.getConnection();
+        String cap = "";
+        ObservableList<String> ids =  FXCollections.observableArrayList();
+        ResultSet rs;
+        try{
+            String query = "select nombre from Categoria order by nombre";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                cap = rs.getString("nombre");
+                ids.add(cap);
+            }
+        }
+        catch (Exception e){
+
+        }
+        return ids;
+    }
+
+    private int idCategoria(String categoria){
+        Connection connection = MySQL.getConnection();
+        int id = 0;
+        ResultSet rs;
+        try{
+            String query = "select idCategoria from Categoria where nombre = "+"'"+categoria+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                id = rs.getInt("idCategoria");
+            }
+        }
+        catch (Exception e){
+
+        }
+        return id;
+    }
+
+    private ObservableList<String> getVendedores(){
+        Connection connection = MySQL.getConnection();
+        String cap = "";
+        ObservableList<String> ids =  FXCollections.observableArrayList();
+        ResultSet rs;
+        try{
+            String query = "select nombre from Vendedores order by nombre";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                cap = rs.getString("nombre");
+                ids.add(cap);
+            }
+        }
+        catch (Exception e){
+
+        }
+        return ids;
+    }
+
+    private int idVendedor(String vendedor){
+        Connection connection = MySQL.getConnection();
+        int id = 0;
+        ResultSet rs;
+        try{
+            String query = "select idVendedor from Vendedores where nombre = "+"'"+vendedor+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                id = rs.getInt("idVendedor");
+            }
+        }
+        catch (Exception e){
+
+        }
+        return id;
+    }
+
+    private ObservableList<String> getIdiomas(){
+        Connection connection = MySQL.getConnection();
+        String cap = "";
+        ObservableList<String> ids =  FXCollections.observableArrayList();
+        ResultSet rs;
+        try{
+            String query = "select descripcion from Idioma order by descripcion";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                cap = rs.getString("descripcion");
+                ids.add(cap);
+            }
+        }
+        catch (Exception e){
+
+        }
+        return ids;
+    }
+
+    private int idIdioma(String categoria){
+        Connection connection = MySQL.getConnection();
+        int id = 0;
+        ResultSet rs;
+        try{
+            String query = "select idIdioma from Idioma where descripcion = "+"'"+categoria+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                id = rs.getInt("idIdioma");
+            }
+        }
+        catch (Exception e){
+
+        }
+        return id;
+    }
+
+    private ObservableList<String> getPais(){
+        Connection connection = MySQL.getConnection();
+        String cap = "";
+        ObservableList<String> ids =  FXCollections.observableArrayList();
+        ResultSet rs;
+        try{
+            String query = "select nombre from Pais order by nombre";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                cap = rs.getString("nombre");
+                ids.add(cap);
+            }
+        }
+        catch (Exception e){
+
+        }
+        return ids;
+    }
+
+    private int idPais(String categoria){
+        Connection connection = MySQL.getConnection();
+        int id = 0;
+        ResultSet rs;
+        try{
+            String query = "select idPais from Pais where nombre = "+"'"+categoria+"'";
+            Statement st = connection.createStatement();
+            //System.out.println(query);
+            rs = st.executeQuery(query);
+            while (rs.next()) {
+                id = rs.getInt("idPais");
+            }
+        }
+        catch (Exception e){
+
+        }
+        return id;
     }
 }
 

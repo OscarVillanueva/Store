@@ -114,7 +114,7 @@ public class Detalles implements Initializable {
             public void handle(ActionEvent event) {
                 if((guia.equals("2")||guia.equals("1"))&&btnComprar.getText().equals("Cambiar")){
                     icono = "/src";
-                    bandera = false;
+                    isCaptura = false;
                     String file = chooser();
                     icono = icono + file;
                     //imageView.setImage(new Image(file));
@@ -139,7 +139,7 @@ public class Detalles implements Initializable {
                         String ver,String lang,String desc,String others,ArrayList url,boolean log,String idUser){
         this.idUser = idUser;
         this.id = id;
-        imageView.setImage(new Image((icono)));
+        setIcon(icono);
         guia = behaivior;
         txtVendedor.setText(seller);
         txtComp.setText(compat);
@@ -168,6 +168,7 @@ public class Detalles implements Initializable {
             bandera = true;
             cont = 0;
             urls = url;
+            setFiles();
             imageCap.setImage(new Image(urls.get(cont)));
         }
         initComponents();
@@ -264,6 +265,7 @@ public class Detalles implements Initializable {
             if(!bandera) {
                 AppDao appDao = new AppDao(MySQL.getConnection());
                 appDao.insertApp(app);
+                //System.load(path);
             }
             else{
                 //consulta update
@@ -339,6 +341,7 @@ public class Detalles implements Initializable {
             try{
                 Files.copy(movefrom,targetDir,StandardCopyOption.REPLACE_EXISTING);
                 confimation();
+                //System.load(targetDir.toString());
                 //System.out.println("/src/sample/recursos/"+selectFile.getName());
 
             }catch (IOException e){}
@@ -357,8 +360,8 @@ public class Detalles implements Initializable {
                 veces = veces + 1;
                 caps = null;
                 caps = new ArrayList<>();
-                urls.add(selectFile.toURI().toString());
             }
+            urls.add(selectFile.toURI().toString());
             caps.add("/src" + temp);
         }
         return temp;
@@ -650,6 +653,25 @@ public class Detalles implements Initializable {
 
         }
         return id;
+    }
+
+    private void setFiles(){
+        getRootPath();
+        int i;
+        for(i=0;i<urls.size();i++){
+            String aux = urls.get(i);
+            aux = aux.substring(17);
+            File file = new File(path+aux);
+            urls.set(i,file.toURI().toString());
+        }
+    }
+
+    private void setIcon(String url){
+        getRootPath();
+        url = url.substring(17);
+        File file = new File(path+url);
+        Image image = new Image(file.toURI().toString());
+        imageView.setImage(image);
     }
 }
 

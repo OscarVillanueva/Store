@@ -61,7 +61,7 @@
                  <Label GridPane.rowIndex="12" GridPane.columnIndex="0" text=""/>
 
 <HBox GridPane.rowIndex="12" GridPane.columnIndex="2" spacing="10">
-            <Button fx:id="btnCrear"  text="Crear app" visible="false" styleClass="compra"/>
+            <Button fx:id="btnCrear"  text="Insertar" visible="false" styleClass="compra"/>
             <Button fx:id="btnEditar" text="Cerrar Sesion" styleClass="compra" minWidth="150"/>
             <Button fx:id="btnOk"  text="OK" GridPane.columnIndex="4" GridPane.rowIndex="13" styleClass="compra"/>
 </HBox>

@@ -1,6 +1,7 @@
 package sample.controllers;
 
 
+import com.sun.jndi.toolkit.url.Uri;
 import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIcon;
 import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView;
 import javafx.event.ActionEvent;
@@ -25,8 +26,13 @@ import sample.App;
 import sample.InfoUser;
 import sample.Persistencia;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ResourceBundle;
 
 public class ModeloCategoria implements Initializable {
@@ -109,9 +115,13 @@ public class ModeloCategoria implements Initializable {
     }
 
     public void setData(String url,String name, String id){
-        Image image = new Image(url);
-        imageView.setImage(image);
-        labelNombre.setText(name);
+         url = url.substring(17);
+         Path current = Paths.get("");
+         String path = current.toAbsolutePath().toString() + "/src/sample/recursos/";
+         File file = new File(path+url);
+         Image image = new Image(file.toURI().toString());
+         imageView.setImage(image);
+         labelNombre.setText(name);
     }
 
     public void setApp(App datos){

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import sample.controllers.NumberTextField?>
+<VBox xmlns="http://javafx.com/javafx" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml" spacing="40"
+      fx:controller="sample.controllers.InsertarVendedor"
+      prefHeight="400.0" prefWidth="900.0">
+
+    <Label text="Insertar " styleClass="title" fx:id="labelInsertar"/>
+    <TextField fx:id="textNombre" promptText="Microsoft"/>
+    <NumberTextField fx:id="textComision" promptText="comision"/>
+    <Button text="Agregar" styleClass="compra" onAction="#insertar"/>
+
+</VBox>

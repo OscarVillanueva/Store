@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8843add6-1f3a-4af3-a352-f41522ef2b21" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/InsertarVendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/fxml/insertarVendedor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/Detalles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/Detalles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ModeloCategoria$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ModeloCategoria$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ModeloCategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ModeloCategoria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/fxml/Cuenta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/fxml/Cuenta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/210520-OZX1YT-359.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/9A7268A60AE88425E8094017512BA285.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Captura de pantalla 2016-10-12 a la(s) 16.52.37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/Captura de pantalla 2018-05-31 a la(s) 18.00.17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/cuernos-de-reno-de-la-navidad_318-41030.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/curso-gestion-de-costos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/e942c199-da1c-4ae7-b654-4a56963d0831.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/gatoOp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/hamburger-494706_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/recursos/m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controllers/Detalles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/Detalles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/controllers/ModeloCategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/ModeloCategoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/fxml/Cuenta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/fxml/Cuenta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/210520-OZX1YT-359.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/7FF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/9A7268A60AE88425E8094017512BA285.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Captura de pantalla 2016-10-12 a la(s) 16.52.37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/Captura de pantalla 2018-05-31 a la(s) 18.00.17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/background-3007395_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/bear_drawing_animal_87247_2560x1440.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/child-1837375_1280.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/cuernos-de-reno-de-la-navidad_318-41030.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/curso-gestion-de-costos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/e942c199-da1c-4ae7-b654-4a56963d0831.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/gatoOp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/hamburger-494706_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/recursos/m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Store/sample/controllers/ControllerCuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +27,7 @@
       <file leaf-file-name="Detalles.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/controllers/Detalles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
+            <state relative-caret-position="1644">
               <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,29 +36,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <file leaf-file-name="ControllerCuenta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="916">
+              <caret line="256" column="45" selection-start-line="256" selection-start-column="45" selection-end-line="256" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Categoria.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/controllers/Categoria.java">
+      <file leaf-file-name="InsertarVendedor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/controllers/InsertarVendedor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="318">
+              <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModeloCategoria.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/controllers/ModeloCategoria.java">
+      <file leaf-file-name="AppDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/dao/AppDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="354">
+              <caret line="369" column="8" selection-start-line="369" selection-start-column="8" selection-end-line="379" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +76,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -159,9 +140,14 @@
         <option value="$PROJECT_DIR$/src/sample/fxml/detalles.fxml" />
         <option value="$PROJECT_DIR$/src/sample/dao/AppDao.java" />
         <option value="$PROJECT_DIR$/src/sample/fxml/Cuenta.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java" />
         <option value="$PROJECT_DIR$/src/sample/controllers/ModeloCategoria.java" />
         <option value="$PROJECT_DIR$/src/sample/controllers/Detalles.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/Insertar.java" />
+        <option value="$PROJECT_DIR$/src/sample/fxml/insertar.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/fxml/insertarVendedor;.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/fxml/insertarVendedor.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/InsertarVendedor.java" />
       </list>
     </option>
   </component>
@@ -204,6 +190,13 @@
               <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,17 +318,20 @@
       <workItem from="1527806914269" duration="8735000" />
       <workItem from="1527815722832" duration="7472000" />
       <workItem from="1527826507875" duration="7000" />
+      <workItem from="1527899971049" duration="3749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61030000" />
+    <option name="totallyTimeSpent" value="64779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900944" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -347,8 +343,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24930556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24930556" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -361,8 +358,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900944" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +371,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java</url>
-          <line>78</line>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
@@ -475,10 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1087">
           <caret line="87" column="38" lean-forward="true" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,18 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/dao/AppDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="1290" selection-start-line="1290" selection-end-line="1290" />
-          <folding>
-            <element signature="e#45884#45885#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/javafx-src.zip!/javafx/scene/image/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -759,13 +725,6 @@
             <element signature="e#15032#15033#0" expanded="true" />
             <element signature="e#15072#15073#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Barra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -789,23 +748,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Barra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Insertar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/fxml/insertar.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/fxml/insertarVendedor;.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/fxml/insertarVendedor.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controllers/Categoria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="17">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controllers/ModeloCategoria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
+        <state relative-caret-position="764">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/dao/AppDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="369" column="8" selection-start-line="369" selection-start-column="8" selection-end-line="379" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/fxml/detalles.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controllers/Detalles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
+        <state relative-caret-position="1644">
           <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -813,10 +835,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/ControllerCuenta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="916">
+          <caret line="256" column="45" selection-start-line="256" selection-start-column="45" selection-end-line="256" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/InsertarVendedor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -20,6 +20,7 @@ import java.net.URL;
 import java.sql.Date;
 import java.text.DecimalFormat;
 import java.time.LocalDate;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class ControllerCuenta implements Initializable {
@@ -95,19 +96,7 @@ public class ControllerCuenta implements Initializable {
                 }
                 else {
                     if(event.getSource() == btnCrear){
-                        loader = new FXMLLoader();
-                        loader.setLocation(getClass().getResource("../fxml/detalles.fxml"));
-                        try {
-                            loader.load();
-                        } catch (Exception e) {
-                            System.out.println(e);
-                        }
-                        Detalles detalles = loader.getController();
-                        detalles.setInit("/sample/recursos/add.png","2",0,"","","",
-                        "","","","","","","","","",null,true,
-                                "");
-                        parent = loader.getRoot();
-                        setContent();
+                        insert();
                     }
                 }
             }
@@ -187,5 +176,87 @@ public class ControllerCuenta implements Initializable {
         alert.setHeaderText("Exito");
         alert.setContentText("Operación relizada con exito");
         alert.showAndWait();
+    }
+
+    private void insert(){
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Administración");
+        alert.setHeaderText("Administración de la Base de Datos");
+        alert.setContentText("Selecciona lo que desees insertar");
+
+        ButtonType buttonTypeOne = new ButtonType("App");
+        ButtonType buttonTypeTwo = new ButtonType("Vendedor");
+        ButtonType buttonTypeThree = new ButtonType("Categoría");
+        ButtonType buttonTypeFour = new ButtonType("Idioma");
+        ButtonType buttonTypeFive = new ButtonType("País");
+        ButtonType buttonTypeCancel = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
+
+        alert.getButtonTypes().setAll(buttonTypeOne, buttonTypeTwo, buttonTypeThree,buttonTypeFour,buttonTypeFive,buttonTypeCancel);
+
+        Optional<ButtonType> result = alert.showAndWait();
+        if (result.get() == buttonTypeOne){
+            loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("../fxml/detalles.fxml"));
+            try {
+                loader.load();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            Detalles detalles = loader.getController();
+            detalles.setInit("/sample/recursos/add.png","2",0,"","","",
+                        "","","","","","","","","",null,true,
+                                "");
+            parent = loader.getRoot();
+            setContent();
+        } else if (result.get() == buttonTypeTwo) {
+            loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("../fxml/insertarVendedor.fxml"));
+            try {
+                loader.load();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            InsertarVendedor insertarVendedor = loader.getController();
+            insertarVendedor.initInsert("Vendedor");
+            parent = loader.getRoot();
+            setContent();
+        } else if (result.get() == buttonTypeThree) {
+            loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("../fxml/insertarVendedor.fxml"));
+            try {
+                loader.load();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            InsertarVendedor insertarVendedor = loader.getController();
+            insertarVendedor.initInsert("Categoria");
+            parent = loader.getRoot();
+            setContent();
+        } else if (result.get() == buttonTypeFour) {
+            loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("../fxml/insertarVendedor.fxml"));
+            try {
+                loader.load();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            InsertarVendedor insertarVendedor = loader.getController();
+            insertarVendedor.initInsert("Idioma");
+            parent = loader.getRoot();
+            setContent();
+            // ... user chose CANCEL or closed the dialog
+        } else if(result.get() == buttonTypeFive){
+            loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("../fxml/insertarVendedor.fxml"));
+            try {
+                loader.load();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            InsertarVendedor insertarVendedor = loader.getController();
+            insertarVendedor.initInsert("Pais");
+            parent = loader.getRoot();
+            setContent();
+        }
     }
 }
